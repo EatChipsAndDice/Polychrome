@@ -1,5 +1,7 @@
 # Cro-Mag
 
+![image](cromag.png)
+
 ## Overview
 Cro-Mags have roughly the same cognitive abilities and variance as other humans, but have a slightly different physique, being broader and shorter, with a more pronounced brow.
 
