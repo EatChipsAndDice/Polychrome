@@ -31,5 +31,8 @@ Make a copy, fill in your details, add it to the **content/_authors** directory,
 ## Creating a Pull Request
 A pull request is basically a file upload, with an accompanying request to the project owner for it to be added to the project.
 
+This video is very helpful for explaining the basics. Keep in mind, you can skip the part where you clone the code to your machine, and make edits directly in the browser instead.
+https://www.youtube.com/watch?v=8lGpZkjnkt4
+
 ## Media Assets (Images/Music/Video/Etc.)
 **TBD... I am not sure yet how we are going to handle this**
