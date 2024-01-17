@@ -1,0 +1,10 @@
+---
+layout: default
+title: Races
+---
+<h1>Races</h1>
+{% for race in site.races %}
+  <h1>{{ race.title }}</h1>
+  <div>{{ race.content | markdownify }}</div>
+  <hr>
+{% endfor %}
