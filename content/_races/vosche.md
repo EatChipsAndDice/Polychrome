@@ -56,6 +56,14 @@ The people who live in the wild territories have been somewhat successful in rei
 
 
 > ‘After two days in the city, I wondered about the steady parade of blooming hairstyles and outrageous attire that would shock and dazzle the senses; I asked my guide when the festival was over. She turned to me and said, ‘what festival?’’
+> **Gifts, Bribes & Threats: an Ambassador’s Recollection**<br>
+> *Soladine of Alamar, Trade Guild Ambassador*
+ 
+{% for subrace in site.subraces %}
+{% if subrace.race == page.name %}
 
-**Gifts, Bribes & Threats: an Ambassador’s Recollection**<br>
-*Soladine of Alamar, Trade Guild Ambassador*
+## *Subrace:* {{ subrace.title }}
+{{ subrace.content }}
+
+{% endif %}
+{% endfor %}

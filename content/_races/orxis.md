@@ -104,3 +104,14 @@ After generations of this behavior, across many regions, the Orxis species carri
 ### Orxis Urbanism
 
 Domesticated Orxis are known to adjust and conform to any environment they find themselves in. Feral Orxis, on the other hand, spurn the comforts of civilized life and live nomadically, conquering and exploiting weaker people. Feral Orxis never live in cities, as they become domesticated within a generation, but do sometimes conquer them for the purposes of exploiting their resources or labor. Domesticated Orxis are prized allies within the lands of other races, as they make loyal and fierce retainers.
+
+> Flavor Text
+ 
+{% for subrace in site.subraces %}
+{% if subrace.race == page.name %}
+
+## *Subrace:* {{ subrace.title }}
+{{ subrace.content }}
+
+{% endif %}
+{% endfor %}

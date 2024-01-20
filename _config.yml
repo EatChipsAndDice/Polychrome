@@ -9,3 +9,12 @@ collections:
   races:
     output: true
     permalink: /races/:path/
+  subraces:
+    output: true
+    permalink: /subraces/:path/
+  classes:
+    output: true
+    permalink: /classes/:path/
+  subclasses:
+    output: true
+    permalink: /subclasses/:path/

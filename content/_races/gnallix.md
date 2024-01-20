@@ -9,3 +9,15 @@ tagline: "Alchemical Android"
 ---
 
 ## Missing
+
+
+> Flavor Text
+ 
+{% for subrace in site.subraces %}
+{% if subrace.race == page.name %}
+
+## *Subrace:* {{ subrace.title }}
+{{ subrace.content }}
+
+{% endif %}
+{% endfor %}

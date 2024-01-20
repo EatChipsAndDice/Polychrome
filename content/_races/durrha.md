@@ -61,3 +61,14 @@ The Durrha have the ability to hibernate for nearly indefinite periods of time. 
 ### Durrha Urbanism
 
 Durrha live in frozen palace-complexes carved in to the ice and rock of glacial valleys. They usually take the form Ice Halls. An Ice Hall has a large ornate ceremonial gate that opens into a very large colonnaded hall. Numerous chambers and tunnels are carved out extending from the hall. Ice Halls are often arrayed with skins and bones of their ancestors; marked with records of their deeds. Durrha homes are often akin to small tombs, within which they hibernate.
+
+> Flavor Text
+ 
+{% for subrace in site.subraces %}
+{% if subrace.race == page.name %}
+
+## *Subrace:* {{ subrace.title }}
+{{ subrace.content }}
+
+{% endif %}
+{% endfor %}

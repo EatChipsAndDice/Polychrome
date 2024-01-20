@@ -74,3 +74,11 @@ Tulgg designs are often inspired by the nests, warrens, dams and hives of Oda's 
 > *Boum Yicka*
 >
 
+{% for subrace in site.subraces %}
+{% if subrace.race == page.name %}
+
+## *Subrace:* {{ subrace.title }}
+{{ subrace.content }}
+
+{% endif %}
+{% endfor %}

@@ -78,12 +78,22 @@ Hmonqi, where they are dominant, most often live in the ruins of older, more pre
 
 
 > All the talk we ever have heard
-Uttered by bat or beast or bird --
-Hide or fin or scale or feather --
-Jabber it quickly and all together!
-Excellent! Wonderful! Once again!
-Now we are talking just like men.
-Let ‘s pretend we are... never mind,
-Brother, thy tail hangs down behind!
-This is the way of the Monkey-kind.
-#### **Road-Song of the Bandar-Log**, Rudyard Kipling
+> Uttered by bat or beast or bird --
+> Hide or fin or scale or feather --
+> Jabber it quickly and all together!
+> Excellent! Wonderful! Once again!
+> Now we are talking just like men.
+> Let ‘s pretend we are... never mind,
+> Brother, thy tail hangs down behind!
+> This is the way of the Monkey-kind.
+> #### **Road-Song of the Bandar-Log**, Rudyard Kipling
+
+ 
+{% for subrace in site.subraces %}
+{% if subrace.race == page.name %}
+
+## *Subrace:* {{ subrace.title }}
+{{ subrace.content }}
+
+{% endif %}
+{% endfor %}
