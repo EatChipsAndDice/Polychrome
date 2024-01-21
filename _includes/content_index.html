@@ -1,0 +1,10 @@
+{% assign render_list = include.render_list %}
+{% assign base_path = include.base_path %}
+
+## {{ render_list | capitalize }}
+
+<ol>
+{% for item in site[render_list] %}
+  <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
+{% endfor %}
+</ol>

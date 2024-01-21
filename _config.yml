@@ -18,3 +18,30 @@ collections:
   subclasses:
     output: true
     permalink: /subclasses/:path/
+  backgrounds:
+    output: true
+    permalink: /backgrounds/:path/
+  feats:
+    output: true
+    permalink: /feats/:path/
+  equipment:
+    output: true
+    permalink: /equipment/:path/
+  spells:
+    output: true
+    permalink: /spells/:path/
+  gods:
+    output: true
+    permalink: /gods/:path/
+  locations:
+    output: true
+    permalink: /locations/:path/
+  monsters:
+    output: true
+    permalink: /monsters/:path/
+  traps:
+    output: true
+    permalink: /traps/:path/
+  rules:
+    output: true
+    permalink: /rules/:path/
