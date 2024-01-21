@@ -1,17 +1,19 @@
 ---
-layout: race
+layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
 splash_image: assets/images/races/orxis.png
 title:  "Orxis"
 tagline: "Mongrel Men"
+flavor-text: "Flavor Text Here."
 ---
 
 ## Basic Attributes
 
 Ability Score Increase
 : STR +2
+
 Age
 : Orxis mature incredibly fast, reaching adulthood around 5 years. They age noticeably faster and rarely live longer than 25 years.
 
@@ -104,8 +106,6 @@ After generations of this behavior, across many regions, the Orxis species carri
 ### Orxis Urbanism
 
 Domesticated Orxis are known to adjust and conform to any environment they find themselves in. Feral Orxis, on the other hand, spurn the comforts of civilized life and live nomadically, conquering and exploiting weaker people. Feral Orxis never live in cities, as they become domesticated within a generation, but do sometimes conquer them for the purposes of exploiting their resources or labor. Domesticated Orxis are prized allies within the lands of other races, as they make loyal and fierce retainers.
-
-> Flavor Text
  
 {% for subrace in site.subraces %}
 {% if subrace.race == page.name %}

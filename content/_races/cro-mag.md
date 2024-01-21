@@ -1,11 +1,12 @@
 ---
-layout: race
+layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
 splash_image: assets/images/races/cromag.png
 title:  "Cro-Mag"
 tagline: "Adaptable Anthropoid"
+flavor-text: "Flavor Text Here."
 ---
 
 ## Basic Attributes
@@ -30,8 +31,6 @@ Cro-Mags have roughly the same cognitive abilities and variance as other humans,
 ## Rule: *Variant Humans*
 *For the purposes of any mechanic that specifies Human, that mechanic also applies to Cro-Mags.*
 </div>
-
-> Flavor Text
  
 {% for subrace in site.subraces %}
 {% if subrace.race == page.name %}

@@ -1,4 +1,5 @@
 ---
+layout: default
 short_name: your-name-url
 name: "Your Full Display Name"
 position: "Your Goofy Fake Title"

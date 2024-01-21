@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: default
 game: polychrome
 content_type: class
 author: ali-bobby
