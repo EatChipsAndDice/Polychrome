@@ -1,5 +1,5 @@
-# Items
+# Traps
 
 ## Overview
 
-Items
+Traps
