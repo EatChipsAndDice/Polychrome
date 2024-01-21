@@ -1,5 +1,5 @@
 ---
-layout: subrace
+layout: default
 author: author-name
 game: polychrome
 content_type: subrace
@@ -8,6 +8,7 @@ name: name
 race: race-name
 title:  "Full Display Name"
 tagline: "2-5 Words"
+flavor-text: "Flavor Text Here."
 ---
 ## Description
 
@@ -15,6 +16,3 @@ Subraces in Polychrome are purely flavor, not mechanical. Provide one tothree se
 
 ### Section Title
 Section text.
-
-> Flavor Text
-

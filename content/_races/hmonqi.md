@@ -1,11 +1,20 @@
 ---
-layout: race
+layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
 splash_image: assets/images/races/hmonqi.png
 title:  "Hmonqi"
 tagline: "Monkey Men"
+flavor-text: "All the talk we ever have heard
+Uttered by bat or beast or bird --
+Hide or fin or scale or feather --
+Jabber it quickly and all together!
+Excellent! Wonderful! Once again!
+Now we are talking just like men.
+Let ‘s pretend we are... never mind,
+Brother, thy tail hangs down behind!
+This is the way of the Monkey-kind."
 ---
 
 ## Basic Attributes
@@ -75,18 +84,6 @@ Like other monkeys, Hmonqi are small, agile and curious. Hmonqi rarely create th
 
 Hmonqi, where they are dominant, most often live in the ruins of older, more prestigious civilizations. Hmonqi culture is essentially additive, so they never demolish, repair or maintain anything. They simply build another layer on top. Hmonqi cities are loud, garish and completely dysfunctional.
 ![](/assets/images/races/hmonqi-urbanism.png)
-
-
-> All the talk we ever have heard
-> Uttered by bat or beast or bird --
-> Hide or fin or scale or feather --
-> Jabber it quickly and all together!
-> Excellent! Wonderful! Once again!
-> Now we are talking just like men.
-> Let ‘s pretend we are... never mind,
-> Brother, thy tail hangs down behind!
-> This is the way of the Monkey-kind.
-> #### **Road-Song of the Bandar-Log**, Rudyard Kipling
 
  
 {% for subrace in site.subraces %}

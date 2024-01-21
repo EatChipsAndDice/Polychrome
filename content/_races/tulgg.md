@@ -1,11 +1,12 @@
 ---
-layout: race
+layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
 splash_image: assets/images/races/tulgg.png
 title:  "Tulgg"
 tagline: "Living Land"
+flavor-text: “SURPRISE, SKINBAGS!” - The Tall Tales of the Tulgg’a, by Boum Yicka
 ---
 
 ## Basic Attributes
@@ -67,12 +68,6 @@ Tulgg lore of medicinal & efficacious herbs & botanicals is unparalleled - they 
 Tulgg build minimal communal structures to provide safety and crucial support. Most productive and recreational activity happens outside of these structures, in the Tulggan hinterland. Tulggan hinterlands look like wilderness to outsiders, but actually represent generations of growing, pruning, shaping and transplanting to create a more predictable, defensible and productive environment for the Tulgg tribes.
 
 Tulgg designs are often inspired by the nests, warrens, dams and hives of Oda's wildlife.
-
-
-> “SURPRISE, SKINBAGS!” <br>
-> The Tall Tales of the Tulgg’a <br>
-> *Boum Yicka*
->
 
 {% for subrace in site.subraces %}
 {% if subrace.race == page.name %}
