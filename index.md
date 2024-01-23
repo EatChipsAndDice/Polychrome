@@ -1,97 +1,45 @@
 ---
 layout: default
-title: "Polychrome"
+title: "Index"
 tagline: "the Terrible World of Oda"
 ---
-<div class='layout-grid' markdown=1>
-## Character Creation
+
 <div class='index-grid' markdown=1>
-{% assign content_configs = "races|classes|backgrounds|feats" | split: "|" %}
+
+{% assign content_configs = "races|classes|backgrounds|feats|gods|locations|monsters|traps|rules" | split: "|" %}
 
 {% for content_type in content_configs %}
-  {% assign base_path = "/" | append: content_type %}
-  <div>
-    <h3>{{ content_type | capitalize }}</h3>
-    <ul class='unstyled'>
-    {% for item in site[content_type] %}
-      <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
+{% assign base_path = "/" | append: content_type %}
+<section>
+<h3>{{ content_type | capitalize }}</h3>
+{% for item in site[content_type] %}
+<a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a>
+{% endfor %}
+</section>
 {% endfor %}
 
-</div>
-## Equipment
+<section>
+<h3>Magic</h3>
+<a href='spells'>Spells</a>
+</section>
 
-<div class='index-grid' markdown=1>
-<div><a href='weapons'>Weapons</a></div>
-<div><a href='armor'>Armor</a></div>
-<div><a href='items'>Items</a></div>
-<div><a href='packs'>Packs</a></div>
-</div>
-## Spells
+<section>
+<h3>Equipment</h3>
+<a href='weapons'>Weapons</a>
+<a href='armor'>Armor</a>
+<a href='items'>Items</a>
+<a href='packs'>Packs</a>
+</section>
 
-{% capture unique_spell_schools %}
-{% for item in site.equipment %}
-  {{ item.spell_school }}
-{% endfor | uniq %}
-{% endcapture %}
-
-{% for spell_school in unique_spell_schools | split: "\n" %}
-  {% assign base_path = "/equipment" %}
-  <h3>{{ spell_school | capitalize }}</h3>
-  <ul class='unstyled'>
-  {% for item in site.equipment %}
-    {% if item.spell_school == spell_school %}
-      <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-{% endfor %}
-
-## Terrible World of Oda
-{% assign content_configs = "gods|locations" | split: "|" %}
-<div class='index-grid' markdown=1>
-{% for content_type in content_configs %}
-  <div>
-    {% assign base_path = "/" | append: content_type %}
-    <h3>{{ content_type | capitalize }}</h3>
-    <ul class='unstyled'>
-    {% for item in site[content_type] %}
-      <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
-</div>
-## Dungeon Master's Guide
-
-{% assign content_configs = "monsters|traps|rules" | split: "|" %}
-<div class='index-grid' markdown=1>
-{% for content_type in content_configs %}
-  <div>
-    {% assign base_path = "/" | append: content_type %}
-    <h3>{{ content_type | capitalize }}</h3>
-    <ul class='unstyled'>
-    {% for item in site[content_type] %}
-      <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
-</div>
-
-
-## Credits
 {% assign content_configs = "authors" | split: "|" %}
-
 {% for content_type in content_configs %}
-  {% assign base_path = "/" | append: content_type %}
-  <h3>{{ content_type | capitalize }}</h3>
-  <ul class='unstyled'>
-  {% for item in site[content_type] %}
-    <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
-  {% endfor %}
-  </ul>
+{% assign base_path = "/" | append: content_type %}
+<section>
+<h3>{{ content_type | capitalize }}</h3>
+{% for item in site[content_type] %}
+<a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a>
+</section>
 {% endfor %}
+{% endfor %}
+
 </div>

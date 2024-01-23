@@ -4,8 +4,10 @@
   <body>
     {% include header.html %}
     <div class="container">
-      <h1 class="page-title">{{ page.title }}</h1>
-      <small class="tagline">{{ page.tagline }}</small>
+      <div class="title-section">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <small class="tagline">{{ page.tagline }}</small>
+      </div>
       <div class="page-content">
         {{ content }}
         {% if page.flavor-text %}

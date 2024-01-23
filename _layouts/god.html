@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="container">
+      <div class="title-section">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <small class="tagline">{{ page.tagline }}</small>
+      </div>
+      <div class="sidebar-grid">
+        <div class="sidebar" markdown=1>
+          <ul class="unstyled">
+            <li><b>Spheres:</b> {{ page.spheres | join: ', '}}</li>
+            <li><b>Avatar:</b>{{ page.avatar }}</li>
+            <li><b>Holy Symbol:</b>{{ page.holy-symbol }}</li>
+            <li><b>Head Temple:</b>{{ page.head-temple }}</li>
+            <li><b>Sacred Text:</b>{{ page.sacred-text }}</li>
+          </ul>
+        </div>
+        <div class="page-content" markdown=1>
+          {{ content }}
+          {% if page.flavor-text %}
+          <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+        </div>
+        {% endif %}
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -13,6 +13,7 @@ properties: [an, array, of, properties]
 proficiency: simple
 range: short/long
 magic: false
+rarity: common
 ---
 
 Description of the weapon, if necessary.
