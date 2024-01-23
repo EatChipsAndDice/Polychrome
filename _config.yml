@@ -45,3 +45,15 @@ collections:
   rules:
     output: true
     permalink: /rules/:path/
+  weapons:
+    output: true
+    permalink: /equipment/weapons/:path/
+  armor:
+    output: true
+    permalink: /equipment/armor/:path/
+  items:
+    output: true
+    permalink: /equipment/items/:path/
+  packs:
+    output: true
+    permalink: /equipment/packs/:path/
