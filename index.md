@@ -23,25 +23,12 @@ tagline: "the Terrible World of Oda"
 </div>
 ## Equipment
 
-{% capture unique_equipment_types %}
-{% for item in site.equipment %}
-  {{ item.equipment_type }}
-{% endfor | uniq %}
-{% endcapture %}
-
-{% for equipment_type in unique_equipment_types | split: "\n" %}
-  {% assign base_path = "/equipment" %}
-  <h3>{{ equipment_type | capitalize }}</h3>
-  <ul class='unstyled'>
-  {% for item in site.equipment %}
-    {% if item.equipment_type == equipment_type %}
-      <li><a href="{{ base_path }}/{{ item.slug }}">{{ item.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-{% endfor %}
-
-
+<div class='index-grid' markdown=1>
+<div><a href='weapons'>Weapons</a></div>
+<div><a href='armor'>Armor</a></div>
+<div><a href='items'>Items</a></div>
+<div><a href='packs'>Packs</a></div>
+</div>
 ## Spells
 
 {% capture unique_spell_schools %}
