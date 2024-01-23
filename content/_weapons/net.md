@@ -6,7 +6,7 @@ title:  "Net"
 name: net
 image: assets/images/equipment/net.png
 cost: 1 gp
-damage-dice: -
+damage-dice: '-'
 damage-type:
 weight: 3
 properties: [special, thrown]
