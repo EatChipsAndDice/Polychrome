@@ -56,12 +56,12 @@ tagline: "Use the Pointy End"
         <td>{{ weapon.rarity }}</td>
         <td>{{ weapon.properties | join: ', ' }}</td>
       </tr>
+      <tr>
         <td colspan=8>
           <div class='layout-grid'>
             {{ weapon.content }}
           </div>
         </td>
-      <tr>
       </tr>
     {% endif %}
     {% endfor %}
