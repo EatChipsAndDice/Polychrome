@@ -8,6 +8,10 @@ name: marian
 race: human
 title:  "Marian"
 tagline: "Sons of the Sea"
+flavor-text: "In the azure realm, where waves embrace the sky,
+The Marians sail, their mastery holds the high.
+With whispered winds and tides their loyal steeds,
+Masters of the seas, where endless horizons lead."
 ---
 ## Description
 Marians are typically swarthy, with dark hair and features. They are generally slightly shorter and thinner than the average human. Marians have a preference for brightly colored clothing, in the most expensive fabrics they can afford.
@@ -17,9 +21,3 @@ Marians are masters of the seas. They are dominate sailing, shipbuilding, and se
 
 ### Second (and third, and fourth..) Sons
 Marian women have an unusual tendency toward birthing male children. More than 3 out of 4 live Marian births are to boys, and because of this, there is a pronounced surplus of male Marians. Perhaps due to their scarcity, women in Marian society are generally more highly valued, and Marian family and political life has taken a distinctly matriarchal form.
-
-> In the azure realm, where waves embrace the sky,
-The Marians sail, their mastery holds the high.
-With whispered winds and tides their loyal steeds,
-Masters of the seas, where endless horizons lead.
-

@@ -7,7 +7,7 @@ name: rhonis
 title:  "Rhonis"
 image: assets/images/gods/rhonis.png
 tagline: "Vizier of the Gods"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Planning, Cunning, Good Council, Prudence]
 avatar: "A non-descript older gentleman"
 holy-symbol: "A plain, thin silver circlet"

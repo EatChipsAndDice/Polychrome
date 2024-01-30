@@ -7,7 +7,7 @@ name: boemon
 title:  "Boemon"
 image: assets/images/gods/boemon.png
 tagline: "Toil's End"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Work, Soil, Rock, Plants, Fertility, Order, Fathers, Law]
 avatar: "A dark, strongly built old man"
 holy-symbol: "a Boemic Spade"

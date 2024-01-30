@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href='/'>back to Index</a>
+      </div>
+
+      <div class="title-section">
+        {% if page['parent'] %}
+          {% assign parent_location = site.locations | where: "name", page['parent'] | first %}
+          {% if parent_location %}
+            <small>
+              <i>Located within:</i>
+              <b><a href="{{ parent_location.url }}">{{ parent_location.title }}</a></b>
+            </small>
+          {% endif %}
+        {% endif %}
+        <h1 class="page-title">{{ page.title }}</h1>
+        <small class="tagline">{{ page.tagline }}</small>
+      </div>
+
+      <div class="page-content">
+        {{ content }}
+        {% include sublocations.html %}
+        <br>
+        {% if page.flavor-text %}
+          <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+        {% endif %}
+      </div>
+
+    </div>
+  </body>
+</html>

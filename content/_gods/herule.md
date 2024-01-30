@@ -7,7 +7,7 @@ name: herule
 title:  "Herule"
 image: assets/images/gods/herule.png
 tagline: "Champion of Kings"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Defense, War, Fortification, Fighters, Strategy, Intelligence]
 avatar: "A nude man with Ivory skin that reddens at the extremities"
 holy-symbol: "A shield with his Glyph painted on it."

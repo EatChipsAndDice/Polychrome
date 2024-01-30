@@ -5,7 +5,7 @@ game: polychrome
 content-type: spell
 title:  "Devalue"
 name: devalue
-image: assets/images/equipment/devalue.png
+image: assets/images/spells/devalue.png
 school: "Transmutation"
 level: 3
 casting time: '1 Action'

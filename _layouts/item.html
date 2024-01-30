@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href='/items'>back to Items</a>
+      </div>
+      <div class="title-section">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <small class="tagline">{{ page.tagline }}</small>
+      </div>
+      <div class="sidebar-grid">
+        <div class="sidebar" markdown=1>
+          <ul class="unstyled">
+            <li><b>Cost:</b> {{ page.cost }}</li>
+            <li><b>Weight:</b> {{ page.weight }} lbs.</li>
+            <li><b>Rarity:</b> {{ page.rarity | capitalize }}</li>
+          </ul>
+        </div>
+        <div class="page-content" markdown=1>
+          {{ content }}
+          {% if page.flavor-text %}
+          <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+        </div>
+        {% endif %}
+      </div>
+
+    </div>
+  </body>
+</html>

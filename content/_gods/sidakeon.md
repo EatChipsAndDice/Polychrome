@@ -7,7 +7,7 @@ name: sidakeon
 title:  "Sidakeon"
 image: assets/images/gods/sidakeon.png
 tagline: "What Lies Hidden"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Books, Learning, Magic, Clouds, Secrets]
 avatar: "Unknown"
 holy-symbol: "A polished magnifying lens on a silver chain."

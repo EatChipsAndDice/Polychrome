@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: weapon
 author: ali-bobby
 game: polychrome
 title:  "Javelin"

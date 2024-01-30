@@ -7,7 +7,7 @@ name: nikantankya
 title:  "Nikantankya"
 image: assets/images/gods/nikantankya.png
 tagline: "the Long Shadow"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Darkness, the Dead, Eclipses, Night]
 avatar: "Three armed vulture-headed god"
 holy-symbol: "A hand scythe"

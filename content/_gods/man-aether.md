@@ -7,7 +7,7 @@ name: man-aether
 title:  "Man Aether"
 image: assets/images/gods/man-aether.png
 tagline: "Walks Without Trace"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Trickery, Wealth, Rumors, Bets, Promises, Repentence]
 avatar: "A balding, middle aged man with a gray Van Dyke and fashionable clothes"
 holy-symbol: "Any common coin, if has been won gambling"

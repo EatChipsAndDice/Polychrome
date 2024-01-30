@@ -4,8 +4,9 @@ author: ali-bobby
 game: polychrome
 content-type: spell
 title:  "Spell"
+tagline: spell
 name: spell
-image: assets/images/equipment/spell.png
+image: assets/images/spells/spell.png
 school: "School"
 level: 1
 casting time: 'instantaneous'

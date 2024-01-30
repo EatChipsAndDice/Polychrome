@@ -21,9 +21,9 @@
         <div class="page-content" markdown=1>
           {{ content }}
           {% if page.flavor-text %}
-          <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+            <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
 
     </div>

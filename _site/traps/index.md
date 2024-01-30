@@ -1,5 +1,0 @@
-# Traps
-
-## Overview
-
-Traps

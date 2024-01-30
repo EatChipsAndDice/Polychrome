@@ -46,20 +46,13 @@ tagline: "Don't Leave Home Without It"
   {% for armor in site.armor %}
     {% if armor.magic == true %}
       <tr>
-        <td><b>{{ armor.title }}</b></td>
+        <td><a href="{{ armor.url }}">{{ armor.title }}</a></td>
         <td>{{ armor.proficiency }}</td>
         <td>{{ armor.ac }}</td>
         <td>{{ armor.dex-bonus }}</td>
         <td>{{ armor.stealth }}</td>
         <td>{{ armor.cost }}</td>
         <td>{{ armor.weight }}</td>
-      </tr>
-      <tr>
-        <td colspan=8>
-          <div class='layout-grid'>
-            {{ armor.content }}
-          </div>
-        </td>
       </tr>
     {% endif %}
   {% endfor %}

@@ -7,7 +7,7 @@ splash_image: assets/images/races/human.png
 title:  "Human"
 name: human
 tagline: "The Measure of All Things"
-flavor-text: "Flavor Text Here."
+flavor-text:
 ---
 
 ## Basic Attributes
