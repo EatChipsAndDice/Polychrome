@@ -7,7 +7,7 @@ name: piramos
 title:  "Piramos"
 image: assets/images/gods/piramos.png
 tagline: "the Whisper in Your Ear"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Love, Seduction, Music, Oratory]
 avatar: ": An effeminate, but beautiful man"
 holy-symbol: "the Love Jack, a small ornate silver billy-club."

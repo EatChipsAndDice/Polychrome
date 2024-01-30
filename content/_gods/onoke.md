@@ -7,7 +7,7 @@ name: onoke
 title:  "Onoke"
 image: assets/images/gods/onoke.png
 tagline: "Waits Without End"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Time, Memory, Justice, Sacrifice, Destiny]
 avatar: "A strong, dark-haired, middle-aged woman"
 holy-symbol: "Amulet of the Wheel of Time"

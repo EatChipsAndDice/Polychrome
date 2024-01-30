@@ -8,7 +8,7 @@ name: hmonqi-paw-lodge
 class: agent
 title:  "Hmonqi Paw Lodge"
 tagline: "2-5 Words"
-flavor-text: "Flavor Text Here."
+flavor-text:
 ---
 
 The Hmonqi Paw Lodges originated as secretive revolutionary cells in the Banana Kingdoms. The lodges of the Banana Kingdom are largely suppressed or co-opted now. Despite this, the Tradelands have many lodges, which act mostly as social clubs and economic support networks for the Hmonqi diaspora. However, some conspiratorial lodges still plot the overthrow of the One True Monkey Kings.

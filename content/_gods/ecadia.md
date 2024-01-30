@@ -7,7 +7,7 @@ name: ecadia
 title:  "Ecadia"
 image: assets/images/gods/ecadia.png
 tagline: "Mother to All"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Paths, Stars, Prophecy, Fathers, Luck, Wind, Light, Moons]
 avatar: "A figure shrouded in robes, eyes shining from the blackness within the robe"
 holy-symbol: "An amulet that opens to reveal a medium-sized lavender-colored mirror"

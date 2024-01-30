@@ -9,8 +9,9 @@
 }
 
 .header {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
+  margin-top: -1rem;
   padding: 1em;
   a {
     color: #fff;
@@ -21,6 +22,12 @@
   a:visited {
     color: #fff;
   }
+}
+
+.banner {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -46,10 +53,21 @@
 .flavor-text {
   font-style: italic;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 0.75em;
   padding: 1em;
   background-color: #eee;
   height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+
+.breadcrumbs {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem 0;
+  gap: 1rem;
 }
 
 .page-content {
@@ -71,6 +89,16 @@
     display: flex;
     flex-direction: column;
     break-inside: avoid;
+  }
+}
+
+details {
+  background: #EEE;
+  padding: 1rem;
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem;
   }
 }
 

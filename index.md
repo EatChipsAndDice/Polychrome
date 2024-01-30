@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Index"
+title: "Polychrome Player's Handbook"
 tagline: "the Terrible World of Oda"
 ---
 
 <div class='index-grid' markdown=1>
 
-{% assign content_configs = "races|classes|backgrounds|feats|gods|locations|monsters|traps|rules" | split: "|" %}
+{% assign content_configs = "races|classes|backgrounds|feats|gods|locations|monsters|traps|languages|rules" | split: "|" %}
 
 {% for content_type in content_configs %}
 {% assign base_path = "/" | append: content_type %}

@@ -6,7 +6,7 @@ content_type: race
 splash_image: assets/images/races/orxis.png
 title:  "Orxis"
 tagline: "Mongrel Men"
-flavor-text: "Flavor Text Here."
+flavor-text:
 ---
 
 ## Basic Attributes

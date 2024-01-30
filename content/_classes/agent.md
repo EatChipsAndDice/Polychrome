@@ -7,7 +7,7 @@ name: agent
 title:  "Agent"
 image: assets/images/classes/agent.png
 tagline: "2-5 Words"
-flavor-text: "Flavor Text Here."
+flavor-text:
 subclass-name: "Faction" # i.e. Divine Domain
 ---
 Agents represent those adventurers whose expertise was gained through extensive training and education, usually on behalf of a political, cultural or economic faction. On Oda there many factions secretly competing for money, power and influence. Kingdoms, fraternal lodges, commercial cartels and criminal syndicates all train agents with skills intended to further their purposes. Occasionally, agents go rogue and work according to their own will.

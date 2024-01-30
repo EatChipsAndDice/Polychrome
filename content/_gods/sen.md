@@ -7,7 +7,7 @@ name: sen
 title:  "Sen"
 image: assets/images/gods/sen.png
 tagline: "the Sleepless Dream"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Dreams, Sleep, Destiny, Silver, Journeys, Change]
 avatar: "A floating, severed head that appears to be sleeping"
 holy-symbol: "A blindfold, commonly worn as a sleep mask"

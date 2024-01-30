@@ -47,7 +47,7 @@ tagline: "Use the Pointy End"
   {% for weapon in site.weapons %}
   {% if weapon.magic == true %}
       <tr>
-        <td><b>{{ weapon.title }}</b></td>
+        <td><a href="{{ weapon.url }}">{{ weapon.title }}</a></td>
         <td>{{ weapon.proficiency }}</td>
         <td>{{ weapon.damage-dice }} {{ weapon.damage-type }}</td>
         <td>{{ weapon.cost }}</td>
@@ -55,13 +55,6 @@ tagline: "Use the Pointy End"
         <td>{{ weapon.range }}</td>
         <td>{{ weapon.rarity }}</td>
         <td>{{ weapon.properties | join: ', ' }}</td>
-      </tr>
-      <tr>
-        <td colspan=8>
-          <div class='layout-grid'>
-            {{ weapon.content }}
-          </div>
-        </td>
       </tr>
     {% endif %}
     {% endfor %}

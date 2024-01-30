@@ -6,7 +6,7 @@ content_type: race
 splash_image: assets/images/races/cromag.png
 title:  "Cro-Mag"
 tagline: "Adaptable Anthropoid"
-flavor-text: "Flavor Text Here."
+flavor-text:
 ---
 
 ## Basic Attributes

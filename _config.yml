@@ -57,3 +57,6 @@ collections:
   packs:
     output: true
     permalink: /equipment/packs/:path/
+  languages:
+    output: true
+    permalink: /languages/:path/

@@ -1,0 +1,19 @@
+{% assign has_sublocations = false %}
+{% for location in site.locations %}
+  {% if location.parent == page.name %}
+    {% assign has_sublocations = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_sublocations %}
+  <h2>Sublocations</h2>
+  <div class='index-grid'>
+  {% for location in site.locations %}
+    {% if location.parent == page.name %}
+    <section>
+      <a href="{{ location.url }}">{{ location.title }}</a>
+    </section>
+    {% endif %}
+  {% endfor %}
+  </div>
+{% endif %}

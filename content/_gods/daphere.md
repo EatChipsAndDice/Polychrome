@@ -7,7 +7,7 @@ name: daphere
 title:  "Daphere"
 image: assets/images/gods/daphere.png
 tagline: "Always in Bloom"
-flavor-text: "Flavor Text Here."
+flavor-text:
 spheres: [Wilderness, Plants, Animals, Bees]
 avatar: "a Nude Maiden"
 holy-symbol: "A flower, most often a rose, cast in silver"
