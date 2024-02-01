@@ -7,7 +7,6 @@ name: ptlakeu
 parent: oda
 location-type: region
 title:  Ptlakeu
-image: assets/images/location/ptlakeu.png
 tagline: Fjord & Fjeld
 flavor-text:
 ---

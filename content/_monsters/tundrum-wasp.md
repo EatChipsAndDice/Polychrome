@@ -5,7 +5,6 @@ author: ali-bobby
 content_type: monster
 name: tundrum-wasp
 title:  "Tundrum Wasp"
-image: assets/images/monsters/tundrum-wasp.png
 tagline:
 flavor-text:
 monster-type: beast

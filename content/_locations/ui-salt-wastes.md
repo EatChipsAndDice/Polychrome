@@ -7,7 +7,6 @@ name: ui-salt-wastes
 parent: oda
 location-type: region
 title:  Ui Salt Wastes
-image: assets/images/location/ui-salt-wastes.png
 tagline: Obsidian & Oblivion
 flavor-text:
 ---

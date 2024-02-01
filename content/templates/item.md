@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 content-type: item
 name: item
-image: assets/images/equipment/item.png
 title:  "Item"
 cost: Xgp
 weight: 1

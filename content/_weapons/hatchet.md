@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Hatchet"
 name: hatchet
-image: assets/images/equipment/hatchet.png
 cost: 5 gp
 damage-dice: 1d6
 damage-type: slashing

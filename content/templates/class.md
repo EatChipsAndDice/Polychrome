@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: name
 title:  "Full Display Name"
-image: assets/images/classes/name.png
 tagline: "2-5 Words"
 flavor-text: "Flavor Text Here."
 subclass-name: "Class Specific Subclass Name" # i.e. Divine Domain

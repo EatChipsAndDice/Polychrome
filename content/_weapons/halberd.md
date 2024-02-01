@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Halberd"
 name: halberd
-image: assets/images/equipment/halberd.png
 cost: 20 gp
 damage-dice: 1d10
 damage-type: slashing

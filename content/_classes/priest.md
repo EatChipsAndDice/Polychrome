@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: priest
 title:  Priest
-image: assets/images/classes/priest.png
 tagline: "Repent & Repeat"
 subclass-name: "Cult Practice"
 flavor-text: "Amidst a campsite's flickering firelight, the adventurers rested, nursing their wounds from a skirmish with the vicious Snackers. Kael, their Priest, quickly prepared a makeshift stone altar, placing upon it his sacred book of rites. He chanted softly, invoking the Mending Wounds ritual.

@@ -5,7 +5,6 @@ author: ali-bobby
 content_type: monster
 name: name
 title:  "Name"
-image: assets/images/monsters/name.png
 tagline: "Words"
 flavor-text: "FlavorText"
 monster-type: beast

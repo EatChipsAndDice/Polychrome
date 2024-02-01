@@ -7,7 +7,6 @@ name: red-river-prairie
 parent: oda
 location-type: region
 title:  the Red River Prairie
-image: assets/images/location/red-river-prairie.png
 tagline: Slow & Steady
 flavor-text:
 ---

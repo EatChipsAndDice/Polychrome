@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: ecadia
 title:  "Ecadia"
-image: assets/images/gods/ecadia.png
 tagline: "Mother to All"
 flavor-text:
 spheres: [Paths, Stars, Prophecy, Fathers, Luck, Wind, Light, Moons]

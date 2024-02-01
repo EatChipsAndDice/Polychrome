@@ -7,7 +7,6 @@ name: urdic-kays
 parent: oda
 location-type: region
 title: Urdic Kays
-image: assets/images/location/urdic-kays.png
 tagline: Fens & Fallout
 flavor-text:
 ---

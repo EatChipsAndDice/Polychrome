@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Long Axe"
 name: long-axe
-image: assets/images/equipment/long-axe.png
 cost: 30 gp
 damage-dice: 1d12
 damage-type: slashing

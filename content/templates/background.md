@@ -5,7 +5,6 @@ content_type: background
 author: ali-bobby
 name: name
 title:  "Name"
-image: assets/images/classes/name.png
 tagline: "AFewWords"
 flavor-text: "FlavorText"
 skills: [skill]

@@ -7,7 +7,6 @@ rule-type: condition
 name: doeng-fung
 title:  "Doeng Fung"
 tagline: the Fungus Among Us
-image: assets/images/rules/doeng-fung.png
 ---
 
 Doeng Fung is a condition caused by a certain fungal infection. The disease is feared throughout Oda, as it is extremely contagious and difficult to cure. Those who show signs of the infection are often forced into exile for fear of it becoming epidemic.

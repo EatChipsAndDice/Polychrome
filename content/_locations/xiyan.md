@@ -7,7 +7,6 @@ name: xiyan
 parent: oda
 location-type: region
 title:  Xiyan
-image: assets/images/location/xiyan.png
 tagline: Sand & Sun
 flavor-text:
 ---

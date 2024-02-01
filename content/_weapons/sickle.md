@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Sickle"
 name: sickle
-image: assets/images/equipment/sickle.png
 cost: 1 gp
 damage-dice: 1d4
 damage-type: slashing

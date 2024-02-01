@@ -7,7 +7,6 @@ name: oqi-san
 parent: oda
 location-type: region
 title:  Oqi-San
-image: assets/images/location/oqi-san.png
 tagline: Chaos & Canopy
 flavor-text:
 ---

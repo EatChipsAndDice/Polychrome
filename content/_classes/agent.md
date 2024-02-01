@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: agent
 title:  "Agent"
-image: assets/images/classes/agent.png
 tagline: "2-5 Words"
 flavor-text:
 subclass-name: "Faction" # i.e. Divine Domain

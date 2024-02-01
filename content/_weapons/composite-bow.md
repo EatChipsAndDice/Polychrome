@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Composite Bow"
 name: composite-bow
-image: assets/images/equipment/composite-bow.png
 cost: 25 gp
 damage-dice: 1d6
 damage-type: piercing

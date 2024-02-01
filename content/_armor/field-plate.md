@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Field Plate"
 name: field-plate
-image: assets/images/equipment/field-plate.png
 ac: 18
 str-req: 15
 dex-bonus: ｘ

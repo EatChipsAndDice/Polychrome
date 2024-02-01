@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Munitions Armor"
 name: munitions-armor
-image: assets/images/equipment/munitions-armor.png
 ac: 16
 str-req: 13
 dex-bonus: ｘ

@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: rhonis
 title:  "Rhonis"
-image: assets/images/gods/rhonis.png
 tagline: "Vizier of the Gods"
 flavor-text:
 spheres: [Planning, Cunning, Good Council, Prudence]

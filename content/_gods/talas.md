@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: talas
 title:  "Talas"
-image: assets/images/gods/talas.png
 tagline: "Tomorrow Today"
 flavor-text:
 spheres: [Paths, Stars, Prophecy, Fathers, Luck, Wind, Light, Moons]

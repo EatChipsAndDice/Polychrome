@@ -5,7 +5,6 @@ game: polychrome
 title:  "Armor of Kas Tona"
 tagline: "Gnallix Power Armor"
 name: armor-of-kas-tona
-image: assets/images/equipment/armor-of-kas-tona.png
 ac: 18
 dex-bonus: ｘ
 stealth: disadvantage

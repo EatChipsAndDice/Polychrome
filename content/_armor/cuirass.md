@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Cuirass"
 name: cuirass
-image: assets/images/equipment/cuirass.png
 ac: 14
 str-req: '-'
 dex-bonus: ✓ (+2 Max)

@@ -7,7 +7,6 @@ name: rift
 parent: oda
 location-type: region
 title:  the Rift
-image: assets/images/location/rift.png
 tagline:
 flavor-text:
 ---

@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: oraksus
 title:  "Oraksus"
-image: assets/images/gods/oraksus.png
 tagline: "2-5 Words"
 flavor-text: "Breaker of Obstacles"
 spheres: [Barbarians, War, Rage, Change, Mountains, Emotion, Gold]

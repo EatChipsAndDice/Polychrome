@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: fighter
 title:  "Fighter"
-image: assets/images/classes/fighter.png
 tagline: "Those who fight"
 flavor-text:
 subclass-name: "Martial Archetype" # i.e. Divine Domain

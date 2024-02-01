@@ -7,7 +7,6 @@ name: dal-barun
 parent: oda
 location-type: region
 title:  Dal Barun
-image: assets/images/location/dal-barun.png
 tagline: Gold & Glory
 flavor-text:
 ---

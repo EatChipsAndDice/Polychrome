@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: sen
 title:  "Sen"
-image: assets/images/gods/sen.png
 tagline: "the Sleepless Dream"
 flavor-text:
 spheres: [Dreams, Sleep, Destiny, Silver, Journeys, Change]

@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Basic Weapon"
 name: weapon
-image: assets/images/equipment/weapons.png
 cost: Xgp
 damage-dice: 1d4
 damage-type: piercing

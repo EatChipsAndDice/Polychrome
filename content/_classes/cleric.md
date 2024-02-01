@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: cleric
 title:  "Cleric"
-image: assets/images/classes/cleric.png
 tagline: "Those who pray"
 flavor-text:
 subclass-name: "Divine Domain"

@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Gambeson"
 name: gambeson
-image: assets/images/equipment/gambeson.png
 ac: 11
 str-req: '-'
 dex-bonus: ✓

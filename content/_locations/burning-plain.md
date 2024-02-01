@@ -7,7 +7,6 @@ name: burning-plain
 parent: oda
 location-type: region
 title:  Burning Plain
-image: assets/images/location/burning-plain.png
 tagline: "Fire & Fields"
 flavor-text:
 ---

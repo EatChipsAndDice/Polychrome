@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Javelin"
 name: javelin
-image: assets/images/equipment/javelin.png
 cost: 5 sp
 damage-dice: 1d6
 damage-type: piercing

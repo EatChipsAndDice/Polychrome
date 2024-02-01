@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-splash_image: assets/images/races/hmonqi.png
 title:  "Hmonqi"
 tagline: "Monkey Men"
 flavor-text: "All the talk we ever have heard

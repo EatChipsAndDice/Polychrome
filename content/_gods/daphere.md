@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: daphere
 title:  "Daphere"
-image: assets/images/gods/daphere.png
 tagline: "Always in Bloom"
 flavor-text:
 spheres: [Wilderness, Plants, Animals, Bees]

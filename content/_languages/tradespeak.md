@@ -5,7 +5,6 @@ content_type: language
 author: ali-bobby
 name: tradespeak
 title:  "Tradespeak"
-image: assets/images/languages/tradespeak.png
 tagline: "Is da wey da peepol spake a one de other"
 flavor-text:
 ---

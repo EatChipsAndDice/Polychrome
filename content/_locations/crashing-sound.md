@@ -7,7 +7,6 @@ name: crashing-sound
 parent: oda
 location-type: region
 title:  the Crashing Sound
-image: assets/images/location/crashing-sound.png
 tagline: Rocky & Remote
 flavor-text:
 ---

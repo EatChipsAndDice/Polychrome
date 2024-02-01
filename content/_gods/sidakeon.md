@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: sidakeon
 title:  "Sidakeon"
-image: assets/images/gods/sidakeon.png
 tagline: "What Lies Hidden"
 flavor-text:
 spheres: [Books, Learning, Magic, Clouds, Secrets]

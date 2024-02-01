@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 content-type: item
 name: insomniac-serum
-image: assets/images/equipment/insomniac-serum.png
 title:  "Insomniac Serum"
 cost: "40 gp"
 weight: 1

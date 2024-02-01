@@ -7,7 +7,6 @@ name: aurolt
 parent: oda
 location-type: region
 title:  Aurolt
-image: assets/images/location/aurolt.png
 tagline: "Acid & Agony"
 flavor-text:
 ---

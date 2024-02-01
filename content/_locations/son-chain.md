@@ -7,7 +7,6 @@ name: son-chain
 parent: oda
 location-type: region
 title:  the Son Chain
-image: assets/images/location/son-chain.png
 tagline: Blood & Beaches
 flavor-text:
 ---

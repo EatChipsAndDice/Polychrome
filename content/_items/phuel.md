@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 content-type: item
 name: phuel
-image: assets/images/items/phuel.png
 title:  "Phuel"
 cost: "40 gp"
 weight: 1

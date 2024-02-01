@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Buckler"
 name: buckler
-image: assets/images/equipment/buckler.png
 ac: '+1'
 str-req: '-'
 dex-bonus: '-'

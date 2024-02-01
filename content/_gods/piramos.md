@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: piramos
 title:  "Piramos"
-image: assets/images/gods/piramos.png
 tagline: "the Whisper in Your Ear"
 flavor-text:
 spheres: [Love, Seduction, Music, Oratory]

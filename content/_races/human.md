@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-splash_image: assets/images/races/human.png
 title:  "Human"
 name: human
 tagline: "The Measure of All Things"

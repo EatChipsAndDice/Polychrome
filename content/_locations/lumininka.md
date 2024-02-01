@@ -7,7 +7,6 @@ name: lumininka
 parent: golden-strand
 location-type: building
 title:  Lumininka
-image: assets/images/location/lumininka.png
 tagline: "Sun & Sand"
 flavor-text:
 ---

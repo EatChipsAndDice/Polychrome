@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: man-aether
 title:  "Man Aether"
-image: assets/images/gods/man-aether.png
 tagline: "Walks Without Trace"
 flavor-text:
 spheres: [Trickery, Wealth, Rumors, Bets, Promises, Repentence]

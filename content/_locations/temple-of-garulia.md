@@ -7,7 +7,6 @@ name: temple-of-garulia
 parent: banana-kingdoms
 location-type: temple
 title:  "Temple of Garulia"
-image: assets/images/location/temple-of-garulia.png
 tagline:
 flavor-text:
 ---

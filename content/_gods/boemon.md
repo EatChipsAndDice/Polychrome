@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: boemon
 title:  "Boemon"
-image: assets/images/gods/boemon.png
 tagline: "Toil's End"
 flavor-text:
 spheres: [Work, Soil, Rock, Plants, Fertility, Order, Fathers, Law]

@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Handgonne"
 name: handgonne
-image: assets/images/equipment/handgonne.png
 cost: 25 gp
 damage-dice: 1d8
 damage-type: piercing

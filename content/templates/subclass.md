@@ -3,7 +3,6 @@ layout: default
 author: author-name
 game: polychrome
 content_type: subclass
-splash_image: assets/images/subclass/name.png
 name: name
 class: class-name
 title:  "Full Display Name"

@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Blunderbus"
 name: blunderbus
-image: assets/images/equipment/blunderbus.png
 cost: 100 gp
 damage-dice: 1d12
 damage-type: piercing
