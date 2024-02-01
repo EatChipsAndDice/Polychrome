@@ -3,7 +3,6 @@ layout: subrace
 author: ali-bobby
 game: polychrome
 content_type: subrace
-splash_image: assets/images/subraces/name.png
 name: marian
 race: human
 title:  "Marian"

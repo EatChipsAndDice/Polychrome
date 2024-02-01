@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Dagger"
 name: dagger
-image: assets/images/equipment/dagger.png
 cost: 2 gp
 damage-dice: 1d4
 damage-type: piercing

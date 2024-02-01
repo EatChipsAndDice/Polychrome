@@ -7,7 +7,6 @@ name: emerald-sea
 parent: oda
 location-type: region
 title:  the Emerald Sea
-image: assets/images/location/emerald-sea.png
 tagline: Ports & Peace
 flavor-text:
 ---

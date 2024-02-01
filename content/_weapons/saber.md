@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Saber"
 name: saber
-image: assets/images/equipment/saber.png
 cost: 25 gp
 damage-dice: 1d6
 damage-type: slashing

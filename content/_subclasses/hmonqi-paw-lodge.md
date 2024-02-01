@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: subclass
-splash_image: assets/images/subclass/hmonqi-paw-lodge.png
 name: hmonqi-paw-lodge
 class: agent
 title:  "Hmonqi Paw Lodge"

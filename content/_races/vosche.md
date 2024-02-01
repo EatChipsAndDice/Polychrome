@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-splash_image: assets/images/races/vosche.png
 title:  "Vosche"
 tagline: "Sleeping Seekers"
 flavor-text: After two days in the city, I wondered about the steady parade of blooming hairstyles and outrageous attire that would shock and dazzle the senses; I asked my guide when the festival was over. She turned to me and said, 'what festival?' <br> - Gifts, Bribes & Threats, an Ambassador's Recollection, <br><small>Soladine of Alamar (Trade Guild Ambassador)</small>

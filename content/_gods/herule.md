@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: herule
 title:  "Herule"
-image: assets/images/gods/herule.png
 tagline: "Champion of Kings"
 flavor-text:
 spheres: [Defense, War, Fortification, Fighters, Strategy, Intelligence]

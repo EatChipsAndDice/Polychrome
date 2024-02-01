@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Zweihander"
 name: zweihander
-image: assets/images/equipment/zweihander.png
 cost: 50 gp
 damage-dice: 2d6
 damage-type: slashing

@@ -7,7 +7,6 @@ name: hand-of-boemon
 parent: oda
 location-type: region
 title:  the Hand of Boemon
-image: assets/images/location/hand-of-boemon.png
 tagline: Soil & Soul
 flavor-text:
 ---

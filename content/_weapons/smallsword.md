@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Smallsword"
 name: smallsword
-image: assets/images/equipment/smallsword.png
 cost: 25 gp
 damage-dice: 1d6
 damage-type: slashing

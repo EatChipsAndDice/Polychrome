@@ -7,7 +7,6 @@ name: banana-kingdoms
 parent: oda
 location-type: region
 title:  the Banana Kingdoms
-image: assets/images/location/banana-kingdoms.png
 tagline: "Pyramids & Ponzi Schemes"
 flavor-text:
 ---

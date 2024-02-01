@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-splash_image: assets/images/races/cromag.png
 title:  "Cro-Mag"
 tagline: "Adaptable Anthropoid"
 flavor-text:

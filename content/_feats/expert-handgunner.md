@@ -5,7 +5,6 @@ content_type: feat
 author: ali-bobby
 name: expert-handgunner
 title:  "Expert Handgunner"
-image: assets/images/classes/expert-handgunner.png
 tagline: "...DRAW!"
 flavor-text: "FlavorText"
 prerequisites: [Proficiency with handguns]

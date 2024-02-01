@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title: "Talas' Starlance"
 name: talas-starlance
-image: assets/images/equipment/talas-starlance.png
 cost: "-"
 damage-dice: 1d8
 damage-type: piercing

@@ -3,7 +3,6 @@ layout: default
 author: author-name
 game: polychrome
 content_type: subclass
-splash_image: assets/images/subclass/cobra-school.png
 name: cobra-school
 class: courtsword
 title:  "Cobra School"

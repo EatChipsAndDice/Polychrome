@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Polaxe"
 name: polaxe
-image: assets/images/equipment/polaxe.png
 cost: 15 gp
 damage-dice: 1d10
 damage-type: bludgeoning

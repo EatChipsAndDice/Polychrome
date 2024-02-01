@@ -7,7 +7,6 @@ name: gdnost
 parent: oda
 location-type: region
 title:  Gdnost
-image: assets/images/location/gdnost.png
 tagline: Volcanoes & Violence
 flavor-text:
 ---

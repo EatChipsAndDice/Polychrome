@@ -7,7 +7,6 @@ name: otun-mires
 parent: oda
 location-type: region
 title:  Otun Mires
-image: assets/images/location/otun-mires.png
 tagline: Mud & Mystery
 flavor-text:
 ---

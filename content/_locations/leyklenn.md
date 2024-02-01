@@ -7,7 +7,6 @@ name: leyklenn
 parent: oda
 location-type: region
 title:  Leyklenn
-image: assets/images/location/leyklenn.png
 tagline: Furs & Forests
 flavor-text:
 ---

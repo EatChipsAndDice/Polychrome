@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Musket"
 name: musket
-image: assets/images/equipment/musket.png
 cost: 75 gp
 damage-dice: 1d10
 damage-type: piercing

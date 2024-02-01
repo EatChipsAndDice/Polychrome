@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 content-type: trap
 name: ice-shackles
-image: assets/images/traps/ice-shackles.png
 title:  Ice Shackles
 tagline:
 flavor-text:

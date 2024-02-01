@@ -7,7 +7,6 @@ name: imperial-south
 parent: oda
 location-type: region
 title:  the Imperial South
-image: assets/images/location/imperial-south.png
 tagline: Pagodas & Pearls
 flavor-text:
 ---

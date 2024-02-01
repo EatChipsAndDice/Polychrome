@@ -7,7 +7,6 @@ name: savage-hills
 parent: oda
 location-type: region
 title:  the Savage Hills
-image: assets/images/location/savage-hills.png
 tagline: Rugged & Remote
 flavor-text:
 ---

@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Net"
 name: net
-image: assets/images/equipment/net.png
 cost: 1 gp
 damage-dice: '-'
 damage-type:

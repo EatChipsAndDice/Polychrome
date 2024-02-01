@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: nikantankya
 title:  "Nikantankya"
-image: assets/images/gods/nikantankya.png
 tagline: "the Long Shadow"
 flavor-text:
 spheres: [Darkness, the Dead, Eclipses, Night]

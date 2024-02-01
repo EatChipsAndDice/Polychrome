@@ -6,7 +6,6 @@ content-type: spell
 name: hunger-of-garulia
 title:  "Hunger of Garulia"
 tagline: 'The God of Hunger must be satiated'
-image: assets/images/spells/hunger-of-garulia.png
 school: "Evocation"
 level: 5
 casting time: 1 Action

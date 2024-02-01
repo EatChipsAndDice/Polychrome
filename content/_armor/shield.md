@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Shield"
 name: shield
-image: assets/images/equipment/shield.png
 ac: '+2'
 str-req: '-'
 dex-bonus: '-'

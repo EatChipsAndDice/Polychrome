@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Light Hammer"
 name: light-hammer
-image: assets/images/equipment/light-hammer.png
 cost: 2 gp
 damage-dice: 1d4
 damage-type: bludgeoning

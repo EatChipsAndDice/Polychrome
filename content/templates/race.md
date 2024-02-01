@@ -3,7 +3,6 @@ layout: default
 author: author-name
 game: polychrome
 content_type: race
-splash_image: assets/images/races/name.png
 name: name
 title:  "Full Display Name"
 tagline: "2-5 Words"

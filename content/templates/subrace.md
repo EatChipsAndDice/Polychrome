@@ -3,7 +3,6 @@ layout: default
 author: author-name
 game: polychrome
 content_type: subrace
-splash_image: assets/images/subraces/name.png
 name: name
 race: race-name
 title:  "Full Display Name"

@@ -7,7 +7,6 @@ name: sonios-expanse
 parent: oda
 location-type: region
 title: the Sonios Expanse
-image: assets/images/location/sonios-expanse.png
 tagline: Flat & Free
 flavor-text:
 ---

@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-image: assets/images/races/durrha.png
 title:  "Durrha"
 tagline: 'Boreal Behemoth'
 flavor-text:

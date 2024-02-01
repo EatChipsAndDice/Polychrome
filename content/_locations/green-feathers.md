@@ -7,7 +7,6 @@ name: green-feathers
 parent: oda
 location-type: region
 title:  Green Feathers
-image: assets/images/location/green-feathers.png
 tagline: Coast & Cliff
 flavor-text:
 ---

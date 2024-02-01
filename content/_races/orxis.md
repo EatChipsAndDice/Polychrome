@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-splash_image: assets/images/races/orxis.png
 title:  "Orxis"
 tagline: "Mongrel Men"
 flavor-text:

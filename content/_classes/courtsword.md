@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: courtsword
 title:  "Courtsword"
-image: assets/images/classes/name.png
 tagline: "Strike Without Thought"
 flavor-text:
 subclass-name: "Sword School"

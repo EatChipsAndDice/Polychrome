@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: subclass
-splash_image: assets/images/subclass/condottiero.png
 name: condottiero
 class: fighter
 title:  "Condottiero"

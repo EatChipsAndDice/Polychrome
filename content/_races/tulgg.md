@@ -3,7 +3,6 @@ layout: default
 author: ali-bobby
 game: polychrome
 content_type: race
-splash_image: assets/images/races/tulgg.png
 title:  "Tulgg"
 tagline: "Living Land"
 flavor-text: “SURPRISE, SKINBAGS!” - The Tall Tales of the Tulgg’a, by Boum Yicka

@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Lance"
 name: lance
-image: assets/images/equipment/lance.png
 cost: 10 gp
 damage-dice: 1d12
 damage-type: piercing

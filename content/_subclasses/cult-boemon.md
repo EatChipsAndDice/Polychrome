@@ -3,7 +3,6 @@ layout: default
 author: author-name
 game: polychrome
 content_type: subclass
-splash_image: assets/images/subclass/cult-boemon.png
 name: cult-boemon
 class: priest
 title:  "The Cult of Boemon's Soil"

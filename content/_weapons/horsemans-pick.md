@@ -4,7 +4,6 @@ author: ali-bobby
 game: polychrome
 title:  "Horseman's Pick"
 name: horsemans-pick
-image: assets/images/equipment/horsemans-pick.png
 cost: 5 gp
 damage-dice: 1d8
 damage-type: piercing

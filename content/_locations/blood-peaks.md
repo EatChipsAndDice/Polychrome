@@ -7,7 +7,6 @@ name: blood-peaks
 parent: oda
 location-type: region
 title:  Blood Peaks
-image: assets/images/location/blood-peaks.png
 tagline: "Mountains & Mange"
 flavor-text:
 ---

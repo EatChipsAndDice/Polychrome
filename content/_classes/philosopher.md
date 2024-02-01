@@ -5,7 +5,6 @@ content_type: class
 author: ali-bobby
 name: philosopher
 title:  "Philosopher"
-image: assets/images/classes/philosopher.png
 tagline: "the Power of Pontification"
 flavor-text:
 subclass-name: "School of Thought"

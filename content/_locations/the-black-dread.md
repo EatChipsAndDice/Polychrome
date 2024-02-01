@@ -7,7 +7,6 @@ name: the-black-dread
 parent: xiyan
 location-type: temple
 title:  'the Black Dread'
-image: assets/images/location/the-black-dread.png
 tagline: "Obsidian Enigma"
 flavor-text:
 ---

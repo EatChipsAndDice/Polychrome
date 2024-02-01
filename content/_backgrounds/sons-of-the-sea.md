@@ -5,7 +5,6 @@ content_type: background
 author: ali-bobby
 name: sons-of-the-sea
 title:  "Sons of the Sea"
-image: assets/images/classes/sons-of-the-sea.png
 tagline: "Severed Tentacles"
 flavor-text: "FlavorText"
 skills: [Athletics, Survival]

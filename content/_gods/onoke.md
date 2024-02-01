@@ -5,7 +5,6 @@ content_type: god
 author: ali-bobby
 name: onoke
 title:  "Onoke"
-image: assets/images/gods/onoke.png
 tagline: "Waits Without End"
 flavor-text:
 spheres: [Time, Memory, Justice, Sacrifice, Destiny]

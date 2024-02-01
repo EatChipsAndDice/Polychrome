@@ -7,7 +7,6 @@ name: oda
 parent: gigaverse
 location-type: planet
 title:  "Oda"
-image: assets/images/location/name.png
 tagline: "the Terrible World"
 flavor-text: "Oda. A world in flux. A world where the past is lost, and the future is uncertain. Immense cities rise from the shores, while the dark forests and jungles of the interior remain unexplored. Behemoth creatures emerge from seas and caves, while ghosts lurk in the shadows collecting secrets.
 Oda. A terrible world."
