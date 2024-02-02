@@ -177,8 +177,32 @@ th, td {
     grid-template-columns: 1fr; /* Single column for mobile */
   }
 }
-.splash {
+.splash-container {
+  position: relative;
+  width: 100%; /* Set to your image's width */
+  background: linear-gradient(315deg, #EFC237, #AD6CDC);
+  overflow: hidden; /* Hide the overflowing image */
+}
+
+.splash-container::before {
+  content: "";
+  display: block;
+  padding-top: 33.3%; /* 16:9 Aspect Ratio */
+}
+
+.splash-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  object-fit: cover; /* This ensures the images cover the container fully */
+}
+
+.multiply {
+  z-index: 10;
+  width: 100%;
+  filter: grayscale(85%) contrast(150%);
+  mix-blend-mode: hard-light; /* Apply multiply blend mode with background */
 }
 
 /*# sourceMappingURL=main.css.map */
