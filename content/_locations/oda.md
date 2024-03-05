@@ -12,9 +12,12 @@ flavor-text: "Oda. A world in flux. A world where the past is lost, and the futu
 Oda. A terrible world."
 ---
 
+![oda-splash](/assets/images/oda-splash.png)
 
 # the Twin Planets
-Oda, with its' twin Omorro, is one of two K-Type worlds trapped in a physio-temporal binary orbit. Most on Oda believe Omorro to be the home of the Gods. There are nine planets in the twin planet system; five orbiting Oda and four orbiting Omorro. The moons are home to the dreaded Moon Devos, whom are believed to be demonic in the lore of most Odaic people.
+Oda, with its' twin Omorro, is one of two K-Type worlds trapped in a physio-temporal binary orbit. Most on Oda believe Omorro to be the home of the Gods. There are nine moons in the twin planet system; five orbiting Oda and four orbiting Omorro. The moons are home to the dreaded Moon Devos, whom are believed to be demonic in the lore of most Odaic people.
 
 # Adventure and Power
 Oda is a world of great opportunity. A world where anything is possible. A world where the brave and the bold can make their mark on the world. Oda is a world of great danger, but it is also of great opportunity. Those who are brave enough to confront the dangers of Oda can find great wealth and power.
+
+![oda-map](/assets/images/oda-map.png)

@@ -11,6 +11,8 @@ tagline: the Fungus Among Us
 
 Doeng Fung is a condition caused by a certain fungal infection. The disease is feared throughout Oda, as it is extremely contagious and difficult to cure. Those who show signs of the infection are often forced into exile for fear of it becoming epidemic.
 
+![Vosche Infected by Doeng Fung](/assets/images/doeng-fung-vosche.jpg)
+
 ## Contracting a Doeng Fung Infection
 
 When you come in contact with Doeng Fung spores, most often by encountering the fungus in the wild or via contact with someone already infected, make a DC13 CON save.
