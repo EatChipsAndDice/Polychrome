@@ -205,4 +205,11 @@ th, td {
   mix-blend-mode: hard-light; /* Apply multiply blend mode with background */
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=main.css.map */
