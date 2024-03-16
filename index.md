@@ -6,7 +6,7 @@ tagline: "the Terrible World of Oda"
 
 <div class='index-grid' markdown=1>
 
-{% assign content_configs = "races|classes|backgrounds|feats|gods|locations|monsters|traps|languages|rules" | split: "|" %}
+{% assign content_configs = "races|classes|backgrounds|feats|languages|rules" | split: "|" %}
 
 {% for content_type in content_configs %}
 {% assign base_path = "/" | append: content_type %}
@@ -18,10 +18,6 @@ tagline: "the Terrible World of Oda"
 </section>
 {% endfor %}
 
-<section>
-<h3>Magic</h3>
-<a href='spells'>Spells</a>
-</section>
 
 <section>
 <h3>Equipment</h3>
@@ -29,6 +25,15 @@ tagline: "the Terrible World of Oda"
 <a href='armor'>Armor</a>
 <a href='items'>Items</a>
 <a href='packs'>Packs</a>
+</section>
+
+<section>
+<h3>Splat Books</h3>
+<a href='locations'>Atlas</a>
+<a href='gods'>Gods</a>
+<a href='spells'>Spells</a>
+<a href='monsters'>Monsters</a>
+<a href='traps'>Traps</a>
 </section>
 
 {% assign content_configs = "authors" | split: "|" %}
