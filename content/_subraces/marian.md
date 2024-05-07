@@ -1,5 +1,5 @@
 ---
-layout: subrace
+layout: default
 author: ali-bobby
 game: polychrome
 content_type: subrace
