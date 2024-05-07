@@ -14,6 +14,6 @@ head-temple: "the Cave of Holy Mystery"
 sacred-text: "How I Became a God (and You Can Too!)"
 ---
 
-Man Ather is the god of trickery, wealth, rumors, bets, promises and repentance. He is the only defied Ecadian in the Tredectheon. Man Ather was the cleverest of the first men, and won godhood from Ninkantankya in a game of dice.
+Man Ather is the god of trickery, wealth, rumors, bets, promises and repentance. He is the only defied Odaian in the Tredectheon. Man Ather was the cleverest of the first men, and won godhood from Ninkantankya in a game of dice.
 
 Monkeys and dice are sacred to Man Ather.
