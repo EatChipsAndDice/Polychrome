@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 game: polychrome
 content_type: class
 author: ali-bobby
@@ -129,14 +129,3 @@ Subconscious Power
 Combat Enlightenment
 : At 20th level, you embody the power of the subconscious. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.
 
-
-{% for subclass in site.subclasses %}
-{% if subclass.class == page.name %}
-
----
-
-## *{{ page.subclass-name }}:* {{ subclass.title }}
-{{ subclass.content }}
-
-{% endif %}
-{% endfor %}

@@ -11,10 +11,7 @@ flavor-text: "Trust me, when the Tide stirs beneath the surface, no secret is sa
 — Captain Lysander, Veteran Corsair"
 ---
 
-### Faction: The Tide
-
-**Overview**
-The Tide is a secretive faction deeply embedded in the cultural and economic fabric of Alamar. Established by the city's ruling matriarchs, The Tide's primary mission is to ensure the unity and dominance of Alamar over the Marian diaspora and uphold its secretive influence across various settlements.
+The Tide is a secretive faction deeply embedded in the cultural and economic fabric of [Alamar](/locations/alamar). Established by the city's ruling matriarchs, The Tide's primary mission is to ensure the unity and dominance of Alamar over the Marian diaspora and uphold its secretive influence across various settlements.
 
 **Level Progression Table**
 

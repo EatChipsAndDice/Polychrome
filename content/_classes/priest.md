@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 game: polychrome
 content_type: class
 author: ali-bobby
@@ -144,14 +144,3 @@ Cult Mastery
 
 Divine Apotheosis
 : At 20th level, your connection to your deity or philosophy reaches its pinnacle, granting a permanent boon or transformation based on your Cult Practice.
-
-
-{% for subclass in site.subclasses %}
-{% if subclass.class == page.name %}
-
----
-## *Cult Practice:* {{ subclass.title }}
-{{ subclass.content }}
-
-{% endif %}
-{% endfor %}

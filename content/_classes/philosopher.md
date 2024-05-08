@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 game: polychrome
 content_type: class
 author: ali-bobby
@@ -114,14 +114,3 @@ Absolute Truth
 Transcendence
 : You have reached a state of enlightenment and understanding that allows you to transcend the physical world. A 20th level, you gain the ability to use the etherealness spell at will and are immune to all physical damage.
 
-
-{% for subclass in site.subclasses %}
-{% if subclass.class == page.name %}
-
----
-
-## *School of Thought:* {{ subclass.title }}
-{{ subclass.content }}
-
-{% endif %}
-{% endfor %}

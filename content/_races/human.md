@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: race
 author: ali-bobby
 game: polychrome
 content_type: race
@@ -20,12 +20,3 @@ Humans are a comparatively young, and the most numerous, race of intelligent hum
 ### Versatility & Diversity
 Humans are found in environment on Oda, from the frozen tundras of P'tlakeu to deserts of Xiyan. Humans are the most adaptable of Oda's intelligent humanoids, and because of that, they exhibit the greatest range of cultural diversity.
 
- 
-{% for subrace in site.subraces %}
-{% if subrace.race == page.name %}
-
-## *Subrace:* {{ subrace.title }}
-{{ subrace.content }}
-
-{% endif %}
-{% endfor %}
