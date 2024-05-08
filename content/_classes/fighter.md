@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 game: polychrome
 content_type: class
 author: ali-bobby
@@ -109,15 +109,3 @@ Indomitable
 : Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.
 
 : You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.
-
-{% for subclass in site.subclasses %}
-{% if subclass.class == page.name %}
-
----
-
-## *Martial Archetype:* {{ subclass.title }}
-{{ subclass.content }}
-
-{% endif %}
-{% endfor %}
-

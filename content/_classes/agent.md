@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 game: polychrome
 content_type: class
 author: ali-bobby
@@ -151,13 +151,3 @@ Ability Score Improvement
 Faction Feature
 : You are promoted at 3rd level, grants you a new faction feature, and again at 6th and 14th level. At 20th level, you acquire the faction mastery feature.
 
-{% for subclass in site.subclasses %}
-{% if subclass.class == page.name %}
-<div class="splash-container">
-  <img src="/assets/images/{{ subclass.name | remove: '.md' }}.png" alt="{{ subclass.title }}" class="multiply" onerror="this.style.display='none'">
-</div>
-## *Faction:* {{ subclass.title }}
-{{ subclass.content }}
-
-{% endif %}
-{% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 game: polychrome
 content_type: class
 author: ali-bobby
@@ -269,15 +269,4 @@ Divine Intervention
 - Gate
 - Mass Heal
 - True Resurrection
-
-{% for subclass in site.subclasses %}
-{% if subclass.class == page.name %}
-
----
-
-## *Martial Archetype:* {{ subclass.title }}
-{{ subclass.content }}
-
-{% endif %}
-{% endfor %}
 

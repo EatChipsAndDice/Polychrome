@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href='/'>back to Index</a>
+      </div>
+
+      <div class="title-section">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <small class="tagline">{{ page.tagline }}</small>
+      </div>
+      <div class="page-content">
+        {{ content }}
+        {% if page.flavor-text %}
+          <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+        {% endif %}
+      </div>
+      {% for subclass in site.subclasses %}
+      {% if subclass.class == page.name %}
+        <hr>
+        <div class="splash-container">
+          <img src="/assets/images/{{ subclass.name | remove: '.md' }}.png" alt="{{ subclass.title }}" class="multiply" onerror="this.style.display='none'">
+        </div>
+        <br>
+        <h2>
+          <i>{{ page.subclass-name }}:</i> {{ subclass.title }}
+        </h2>
+        {{ subclass.content | markdownify }}
+        
+      {% endif %}
+      {% endfor %}
+
+    </div>
+  </body>
+</html>
