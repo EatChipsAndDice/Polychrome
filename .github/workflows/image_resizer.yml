@@ -1,0 +1,27 @@
+name: Image Resizer Workflow
+
+on: push
+
+jobs:
+  resize_images:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v3
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3.0'  # You can specify a different version if required
+
+    - name: Install ImageMagick
+      run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+    - name: Install dependencies
+      run: gem install mini_magick
+
+    - name: Run the image resizing script
+      run: ruby resize_all_photos.rb
+      env:
+        IMAGES_FOLDER: './assets/images' # Adjusted relative path to images within the repo
