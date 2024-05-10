@@ -43,36 +43,20 @@ Tree Climber
 Tulggcraft
 : You may cast the Tulggcraft *(Druidcraft)* cantrip at will.
 
-
-## Description
-
-### Fierce Sentinels
+## Fierce Sentinels
 
 Tulgg society focuses on the tribe and it’s stewardship of the land. Tulgg tribes prefer remote forests, high mountain passes, and other areas remote enough to avoid the taint of city life. For many centuries, the Tulgg had lost homelands to the urban world’s unending hunger for wood, iron, game.
 
 In their role as guardians of the wild, Tulgg often tend towards the fanatic - giving themselves to causes greater than themselves. Frequently this devotion is to their stewardship, often to gods. In rare cases a Tulgg might even grant this bond to another person.
 
-### Food and Medicine
+## Food and Medicine
 
 Like humans, most Tulgg are omnivorous - although some observe dietary restrictions for religious or cultural reasons - despite the rumors, cannibalism, or the consumption of humanoids, is generally as taboo in Tulg society as it is in others.
 
 Tulgg lore of medicinal & efficacious herbs & botanicals is unparalleled - they keep extensive seed library caches - adding to these libraries is a noble calling among the Tulgg.
 
-### Tulgg Urbanism
-<div class='center' markdown='1'>
-![](/assets/images/races/tulgg-lands.png)<br>
-*the Tulgg Realm*
-</div>
+## Tulgg Urbanism
 
 Tulgg build minimal communal structures to provide safety and crucial support. Most productive and recreational activity happens outside of these structures, in the Tulggan hinterland. Tulggan hinterlands look like wilderness to outsiders, but actually represent generations of growing, pruning, shaping and transplanting to create a more predictable, defensible and productive environment for the Tulgg tribes.
 
 Tulgg designs are often inspired by the nests, warrens, dams and hives of Oda's wildlife.
-
-{% for subrace in site.subraces %}
-{% if subrace.race == page.name %}
-
-## *Subrace:* {{ subrace.title }}
-{{ subrace.content }}
-
-{% endif %}
-{% endfor %}

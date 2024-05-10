@@ -55,41 +55,20 @@ Prehensile Tail
 
 Hmonqi are “born” when a monkey eats a purple banana. The Purple Banana has pyschedelic effects that magically change monkeys, granting them greater intelligence and self-awareness. Hmonqi are physically indistinguishable from normal monkeys. The effects of the Banana are non-transmissable; a pregnant Hmonqi will birth a regular monkey.
 
-![](/assets/images/races/hmonqi-banana.jpg)
-
 ### the Banana Kingdoms
 
 The Hmonqi homeland is the Northern Jungle of the western Riftlands. Hmonqi often squat in the ruins of earlier, greater civilizations. Monkey Lords rise through the highly social, and often bruta,l world of Hmonqi politics. The Lords command, through their extensive loyalty networks, huge and diverse armies. The jungle fiefdoms of the Monkey Lords are collectively known as the Banana Kingdoms.
 
 Things change quick in the Kingdoms, with new Monkey Lords rising on seemingly weekly basis. A Dominant Lord will declare himself Monkey King. Hmonqi will only recognize one king as legitimate, and declaring oneself king is often a prelude to regional war.
 
-![Hmonqi Lands](/assets/images/races/Hmonqi-Lands.png)<br>
-*the Banana Kingdoms*
-{: .center }
-
 ### the Hmonqi Diaspora
 
 Many Hmonqi feel stifled under the traditional simian politics and culture of the Banana Kingdoms and choose to make their life among the othe humanoid civilizations. Hmonqi minority communities exist in cities across Oda. Some rumor that a Eastern Monkey King is forming a new Hmonqi Kingdom hidden in the wildernesses of the Tradelands.
-
-![](/assets/images/races/hmonqi-diaspora.png)
 
 ### Hmonqi Style
 
 Like other monkeys, Hmonqi are small, agile and curious. Hmonqi rarely create their own cultural objects, but they do combine and “remix” the artifacts of other races. Hmonqi often adorn themselves extravagantly, preferring shiny, noisy or bright attire.
 
-![](https://open.spotify.com/track/5m6livL7ccIS92wq16n52r?si=CLalGuQySZ-cIeZKjnOstA)
-
 ### Hmonqi Urbanism
 
 Hmonqi, where they are dominant, most often live in the ruins of older, more prestigious civilizations. Hmonqi culture is essentially additive, so they never demolish, repair or maintain anything. They simply build another layer on top. Hmonqi cities are loud, garish and completely dysfunctional.
-![](/assets/images/races/hmonqi-urbanism.png)
-
- 
-{% for subrace in site.subraces %}
-{% if subrace.race == page.name %}
-
-## *Subrace:* {{ subrace.title }}
-{{ subrace.content }}
-
-{% endif %}
-{% endfor %}

@@ -9,13 +9,3 @@ flavor-text:
 ---
 
 ## Missing
-
- 
-{% for subrace in site.subraces %}
-{% if subrace.race == page.name %}
-
-## *Subrace:* {{ subrace.title }}
-{{ subrace.content }}
-
-{% endif %}
-{% endfor %}

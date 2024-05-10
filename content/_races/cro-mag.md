@@ -30,12 +30,3 @@ Cro-Mags have roughly the same cognitive abilities and variance as other humans,
 ## Rule: *Variant Humans*
 *For the purposes of any mechanic that specifies Human, that mechanic also applies to Cro-Mags.*
 </div>
- 
-{% for subrace in site.subraces %}
-{% if subrace.race == page.name %}
-
-## *Subrace:* {{ subrace.title }}
-{{ subrace.content }}
-
-{% endif %}
-{% endfor %}

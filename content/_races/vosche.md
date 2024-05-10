@@ -53,12 +53,3 @@ The people of dreams are wanderers. Compelled by an irresistible instinct to mig
 There once was a time when the Vosche were masters of their dreams to such a degree they could carry wonderful knowledge back into the waking world. The lords of the Vosche would rule from their slumber, sleeping for long stretches and sharing their visions with the others in dreams. The waking world of the Vosche was busy with the fulfilment of these visions. Art, buildings, magic and progress. The limits were endless but as the horizon of possibilities stretched, so did caution. Oraksus punished the Vosche, destroying their greatest city. Their patron, Sihn, sacrificed himself to save what remained and entered an eternal slumber. The Vosche lost their visions when returning to the waking world. The Vision Lords were all dead or corrupted, their powerful gift turned them monsters, their dreams infecting the Vosche with waking nightmares. An age of darkness descended and great evil was committed. Many moons passed without a single vision lord being born who was not of a stain heart. They moved from city to city only finding abandoned destruction from the previous residents. Some people stayed to resettle the ruined cities while others renounced their former dwellings to carve new beginnings. A few left to live in the wild, returning to the ancient teachings of dream walking in an attempt to reconnect with the Sleeping God.
 
 The people who live in the wild territories have been somewhat successful in reintegration to their previous relationship with their dreams. A youth came back from a dream walk ceremony with strange powers and some of the abilities lost in the breaking. He claimed to have found where the Sleeping God lays and spoke with him. He pledged his soul to serve the will of Sihn in the waking world, in exchange, he would grant the youth with the power of dreaming. The youth became the first manifestation of what are now know as a Dream Knight. Soon after this encounter, others came to be touched by Sihn through their dreams. These wild Vosche took the news back to the cities and new orders of worship were founded. The god of the great dream had returned and repaired a thread of tapestry the Vosche once wove.
- 
-{% for subrace in site.subraces %}
-{% if subrace.race == page.name %}
-
-## *Subrace:* {{ subrace.title }}
-{{ subrace.content }}
-
-{% endif %}
-{% endfor %}
