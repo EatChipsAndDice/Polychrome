@@ -6,8 +6,8 @@ author: ali-bobby
 name: gurni
 parent: hand-of-boemon
 location-type: village
-title:  the Village of Gurni
-tagline: 
+title: The Village of Gurni
+tagline: Go away
 flavor-text: "Gurni? It's where we outlast and outsmart the lot of 'em. We're the thorn in the side of Hringurheim, hidden by trees and falls. Don't need much, don't want much. You're either born here or you ain't, and if you ain't, well, good luck finding us. We stick to our own, and the forest keeps our secrets. That's Gurni for ya."
 ---
 
