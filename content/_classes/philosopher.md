@@ -12,7 +12,42 @@ subclass-name: "School of Thought"
 
 The Philosopher is a class that is skilled in the art of contemplation and introspection, using their wisdom and understanding to navigate the complexities of the world and gain insight into the nature of reality. They are often found in libraries, universities, and other centers of learning, seeking to understand the world through logic and reason.
 
-# Level Advancement Table
+### Hit Dice
+Hit Die
+: D6 per Class Name Level
+
+Hit Points at 1st Level
+: 6 + your Constitution modifier
+
+Hit Points at Higher Levels
+: D6 (or 4) + your Constitution modifier per ClassName level after 1st
+
+### Proficiencies
+
+Saving Throws
+: Intelligence and Wisdom
+
+Skills
+: Insight, Perception, and any two of the following: Arcana, History, Nature, or Religion
+
+Armor
+: Light
+
+Weapons
+: Simple
+
+Tools
+: None
+
+### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- A set of traveler's clothes
+- a small library of philosophical
+- a component pouch
+- a dagger
+- a Traveler's Pack
+
+### Level Advancement Table
 
 |Level |Proficiency Bonus   |	Abilities                 |
 |:-----:|:-----------------:|---------------------------|
@@ -37,43 +72,9 @@ The Philosopher is a class that is skilled in the art of contemplation and intro
 |19     |	+6                |	Absolute Truth            |
 |20     |	+6                |	Transcendence             |
 
-# Hit Dice
-Hit Die
-: D6 per Class Name Level
-
-Hit Points at 1st Level
-: 6 + your Constitution modifier
-
-Hit Points at Higher Levels
-: D6 (or 4) + your Constitution modifier per ClassName level after 1st
-
-# Proficiencies
-
-Saving Throws
-: Intelligence and Wisdom
-
-Skills
-: Insight, Perception, and any two of the following: Arcana, History, Nature, or Religion
-
-Armor
-: Light
-
-Weapons
-: Simple
-
-Tools
-: None
 
 
-# Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-- A set of traveler's clothes
-- a small library of philosophical
-- a component pouch
-- a dagger
-- a Traveler's Pack
-
-# Abilities
+### Abilities
 
 Contemplation
 : You are skilled in the art of contemplation and introspection, able to ponder complex ideas and gain insight into the nature of reality. As an action, you can enter a state of contemplation, gaining advantage on Wisdom checks for a number of minutes equal to your Philosopher level. This ability can be used a number of times equal to your Wisdom modifier (minimum of 1) and is regained after a long rest.

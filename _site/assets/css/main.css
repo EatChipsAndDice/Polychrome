@@ -219,4 +219,8 @@ img {
   margin: 0 auto;
 }
 
+.print-only {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

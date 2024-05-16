@@ -9,7 +9,7 @@ tagline: "2-5 Words"
 flavor-text: "Flavor Text Here."
 ---
 
-## Basic Attributes
+### Basic Attributes
 
 Ability Score Increase
 : i.e. STA +X
@@ -30,16 +30,16 @@ Languages
 : One sentence on the most common language proficiencies for memebers of this race.
 
 
-## Abilities
+### Abilities
 
 Ability Name
 : Ability Description.
 
-## Description
+### Description
 
 Provide three or more sections that give a high level understanding of this race, and what makes it unique.
 
-### Section Title
+#### Section Title
 Section text.
 
 
@@ -48,7 +48,7 @@ Section text.
 {% for subrace in site.subraces %}
 {% if subrace.race == page.name %}
 
-## *Subrace:* {{ subrace.title }}
+### *Subrace:* {{ subrace.title }}
 {{ subrace.content }}
 
 {% endif %}

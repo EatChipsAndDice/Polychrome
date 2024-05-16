@@ -1,0 +1,58 @@
+<section class="section">
+    <img src="/assets/images/items.png" alt="items" class="full-bleed" onerror="this.style.display='none'">
+    <div class="section-title">
+        <h2 id="items">Items</h2>
+    </div>
+    
+    <table>
+        <thead>
+          <th>Name</th>
+          <th>Item Type</th>
+          <th>Cost</th>
+          <th>Weight</th>
+          <th>Rarity</th>
+          <th>Properties</th>
+        </thead>
+        <tbody>
+        {% for item in site.items %}
+            <tr>
+              <td><a href="{{ item.url }}">{{ item.title }}</a></td>
+              <td>{{ item.item-type }}</td>
+              <td>{{ item.cost }}</td>
+              <td>{{ item.weight }}</td>
+              <td>{{ item.rarity }}</td>
+              <td>{{ item.properties | join: ', ' }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+            
+<div class="columns"> 
+    {% for item in site.items %}
+    <div class="container">
+        <div class="title-section">
+            <h3 class="page-title">{{ item.title }}</h3>
+            <small class="tagline">{{ item.tagline }}</small>
+        </div>
+        <ul class="unstyled">
+                    <li><b>AC</b>{{ item.ac }}</li>
+                    <li><b>Dex Bonus</b>{{ item.dex-bonus }}</li>
+                    <li><b>Stealth</b>{{ item.stealth }}</li>
+                    <li><b>Proficiency:</b> {{ item.proficiency }}</li>
+                    <li><b>Cost:</b> {{ item.cost }}</li>
+                    <li><b>Weight:</b> {{ item.weight }}</li>
+                </ul>
+            
+                <div class="page-content" markdown=1>
+                {{ item.content }}
+                {% if item.flavor-text %}
+                <blockquote class="flavor-text" markdown=1>{{ item.flavor-text | markdownify }}</blockquote>
+                {% endif %}
+                </div>
+            
+    {% endfor %}
+    </div>
+</section>
+
+
+

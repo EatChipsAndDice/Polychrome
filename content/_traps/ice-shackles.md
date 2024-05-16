@@ -22,29 +22,29 @@ Silently, they navigated through the dense woods, hearts pounding in their chest
 # Ice Shackles
 Ice Shackles are an ancient magical trap, when triggered, the trap activates a powerful freezing effect, turning any nearby water into solid ice and blinding intruders with a brilliant blue flash of light.
 
-## Mechanics
+### Mechanics
 
-### Activation
+#### Activation
 The trap is activated when a creature steps on the hidden magic rune submerged beneath the water. This rune is invisible to the naked eye, and only a successful DC 20 Intelligence (Investigation) check allows a character to detect its presence.
 
-### Saving Throw
+#### Saving Throw
 Upon triggering the trap, all creatures within a 20-foot radius centered on the rune must make a DC 15 Dexterity saving throw. On a failed save, the creature's feet become encased in solid ice, rendering them restrained and unable to move.
 
-### Ice Formation
+#### Ice Formation
 After the initial activation, the water in the tunnel quickly turns into solid ice within a 50-foot radius centered on the rune. This icy terrain becomes difficult terrain for any creature trying to move through it. A successful DC 15 Strength check allows a restrained creature to break free from the ice, ending the restraint effect.
 
-### Blinding Flash
+#### Blinding Flash
 The brilliant blue flash of light upon activation temporarily blinds all creatures within a 15-foot radius centered on the rune. Those affected suffer the blinded condition until the end of their next turn.
 
-### Duration
+#### Duration
 The ice remains in place for 1 minute after activation, gradually melting away afterward. The blinding effect lasts for one round.
 
-## Countermeasures
+### Countermeasures
 
-### Disarming the Rune
+#### Disarming the Rune
 A character proficient in the Arcana skill can attempt to disarm the trap by making a successful DC 20 Intelligence (Arcana) check. On a success, they temporarily deactivate the rune, preventing it from triggering for 1 hour.
 
-### Detection and Avoidance
+#### Detection and Avoidance
 Careful inspection of the tunnel floor might reveal subtle clues or a faint magical aura, allowing characters to detect the rune before triggering it. Upon detection, characters can avoid stepping on it, bypassing the trap altogether.
 
 

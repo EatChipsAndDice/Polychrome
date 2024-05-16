@@ -8,7 +8,7 @@ tagline: "Mongrel Men"
 flavor-text:
 ---
 
-## Basic Attributes
+### Basic Attributes
 
 Ability Score Increase
 : STR +2
@@ -26,7 +26,7 @@ Languages
 : You can speak Tradespeak and Orxis
 
 
-## Abilities
+### Abilities
 
 All Fours
 : You can add 10 to their movment if you move on all fours.
@@ -40,12 +40,12 @@ Howl
 Keen hearing and Smell
 : You have advantage on Wisdom (Perception) checks that rely on hearing and smell.
 
-### Animal Inheritance
+#### Animal Inheritance
 Orxis can, and sometimes do, breed with animals of all types. Offspring of these unions exhibit traits characteristic of those animals.
 
 *Choose one Dominant and one Recessive Trait*
 
-### Dominant Traits
+#### Dominant Traits
 
 1. **Two Heads** You have advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
 2. **Hearty** +1 Constitution
@@ -68,7 +68,7 @@ Orxis can, and sometimes do, breed with animals of all types. Offspring of these
 19. **Mithridized** You are immune from poison damage and the poison condition.
 20. **Egg Laying** Once per long rest, you may produce D4 servings of Egg. A serving of egg restores D4 HP.
 
-### Recessive Traits
+#### Recessive Traits
 
 1. **Aggressive** As a bonus action, you can move up your walking speed towards an enemy that it can see.
 2. **Ambusher** You have advantage on attack rolls against any creature you have surprised.
@@ -92,16 +92,16 @@ Orxis can, and sometimes do, breed with animals of all types. Offspring of these
 20. **Noxious Spray** Each creature within a 15 foot cone must make a DC 13 Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don’t need to breathe or are immune to poison automatically succeed on this saving throw. You may only do this once per short rest.
 
 
-## Description
+### Description
 
-### the Blood of the Rage God
+#### the Blood of the Rage God
 The Orxis claim that their species was born in the final days of the Gods' War. In his battle with Herule, Oraxis, God of Rage, was cut in twain above the Blood Peaks. His intestines fell on those great mountains, and was feasted upon by jackals. These jackals were filled with lust and fury, hunting and breeding until the only thing living on the spine of the world were their offspring: the Orxis.
 
-### Mongrel Men
+#### Mongrel Men
 Orxis can breed with most species of animals. This makes the race highly adaptable across diverse environments. When invading a new land, Orxis will commonly breed with the species of that region to better adapt to the area.
 
 After generations of this behavior, across many regions, the Orxis species carries the traits of many animals.
 
-### Orxis Urbanism
+#### Orxis Urbanism
 
 Domesticated Orxis are known to adjust and conform to any environment they find themselves in. Feral Orxis, on the other hand, spurn the comforts of civilized life and live nomadically, conquering and exploiting weaker people. Feral Orxis never live in cities, as they become domesticated within a generation, but do sometimes conquer them for the purposes of exploiting their resources or labor. Domesticated Orxis are prized allies within the lands of other races, as they make loyal and fierce retainers.

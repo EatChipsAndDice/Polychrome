@@ -1,0 +1,94 @@
+
+<section class="section">
+    <img src="/assets/images/weapons.png" alt="weapons" class="full-bleed" onerror="this.style.display='none'">
+    <div class="section-title">
+        <h2 id="weapons">Weapons</h2>
+    </div>
+    <table class="allow-break">
+        <thead>
+        <th>Name</th>
+        <th class="text-center">Prof.</th>
+        <th class="text-center">Damage</th>
+        <th class="text-center">Cost</th>
+        <th class="text-center">Weight</th>
+        <th class="text-center">Range</th>
+        <th>Properties</th>
+        </thead>
+        <tbody>
+        {% for weapon in site.weapons %}
+        {% if weapon.magic != true %}
+            <tr>
+            <td><b>{{ weapon.title }}</b></td>
+            <td class="text-center">{{ weapon.proficiency | slice: 0, 1 | capitalize }}</td>
+            <td class="text-center">{{ weapon.damage-dice }}<i>{{ weapon.damage-type | slice: 0, 1 | capitalize }}</i></td>
+            <td class="text-center">{{ weapon.cost }}</td>
+            <td class="text-center">{{ weapon.weight }}</td>
+            <td class="text-center">{{ weapon.range }}</td>
+            <td>{{ weapon.properties | join: ', ' }}</td>
+            </tr>
+        {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+    
+    <h2>
+        Magic Weapons
+    </h2>
+    
+    <table>
+        <thead>
+        <th>Name</th>
+        <th class="text-center">Proficiency</th>
+        <th class="text-center">Damage</th>
+        <th class="text-center">Cost</th>
+        <th class="text-center">Weight</th>
+        <th class="text-center">Range</th>
+        <th class="text-center">Rarity</th>
+        <th>Properties</th>
+        </thead>
+        <tbody>
+        {% for weapon in site.weapons %}
+        {% if weapon.magic == true %}
+            <tr>
+            <td><b>{{ weapon.title }}</b>/td>
+            <td class="text-center">{{ weapon.proficiency | slice: 0, 1 | capitalize }}</td>
+            <td class="text-center">{{ weapon.damage-dice }}<i>{{ weapon.damage-type | slice: 0, 1 | capitalize }}</i></td>
+            <td class="text-center">{{ weapon.cost }}</td>
+            <td class="text-center">{{ weapon.weight }}</td>
+            <td class="text-center">{{ weapon.range }}</td>
+            <td class="text-center">{{ weapon.rarity }}</td>
+            <td>{{ weapon.properties | join: ', ' }}</td>
+            </tr>
+        {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+<div class="columns"> 
+    {% for weapon in site.weapons %}
+        {% if weapon.magic == true %}
+        <div class="container">
+            <div class="title-section">
+              <h3 class="page-title">{{ weapon.title }}</h3>
+              <small class="tagline">{{ weapon.tagline }}</small>
+            </div>
+            <ul class="unstyled">
+                <li><b>Proficiency:</b> {{ weapon.proficiency }}</li>
+                <li><b>Damage:</b> {{ weapon.damage-dice }} {{ weapon.damage-type }}</li>
+                <li><b>Cost:</b> {{ weapon.cost }}</li>
+                <li><b>Weight:</b> {{ weapon.weight }}</li>
+                <li><b>Range:</b> {{ weapon.range }}</li>
+                <li><b>Rarity:</b> {{ weapon.rarity }}</li>
+                <li><b>Properties:</b> {{ weapon.properties | join: ", " }}</li>
+            </ul>
+        
+            <div class="page-content" markdown=1>
+            {{ weapon.content }}
+            {% if weapon.flavor-text %}
+            <blockquote class="flavor-text" markdown=1>{{ weapon.flavor-text | markdownify }}</blockquote>
+            {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+</section>
+

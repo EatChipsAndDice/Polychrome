@@ -23,7 +23,7 @@ The wearer must attune to the armor by wearing it for one hour. Once attuned, yo
 
 This armor has a number of charges, which can be used to power its various abilities. The armor has a maximum of 10 charges, and regains 1d8+2 charges at dawn each day.
 
-## Armor Abilities
+### Armor Abilities
 The armor has the following abilities, which can be used by spending a number of charges as noted:
 
 Laser Blast (1 charge)

@@ -12,7 +12,7 @@ flavor-text:
 
 You are trained in the philosophy of skepticism, which holds that knowledge is uncertain and that it is important to question assumptions and beliefs.
 
-### Skeptic Level Progression Table
+#### Skeptic Level Progression Table
 
 |Level  |	Abilities             |
 |:-----:|-----------------------|
@@ -20,7 +20,7 @@ You are trained in the philosophy of skepticism, which holds that knowledge is u
 |6      |	Inquiry               |
 |14     |	Accurate Predictions  |
 
-### Abilities
+#### Abilities
 Basic Education
 : You gain proficiency in the Investigation skill and can use it to challenge and question the assumptions of others.
 

@@ -1,0 +1,14 @@
+<div class="splash-page">
+    <h1>Feats</h1>
+</div>
+
+{% for feat in site.feats %}
+    <section class="section">
+        <img src="/assets/images/{{ feat.name | remove: '.md' }}.png" alt="{{ feat.title }}" class="full-bleed" onerror="this.style.display='none'">
+        <div class="section-title">
+            <h2 id="{{ feat.name | remove: '.md' }}">{{ feat.title }}</h2>
+            <p>{{ feat.tagline }}</p>
+        </div>
+        {{ feat.content | markdownify }}
+    </section>
+{% endfor %}

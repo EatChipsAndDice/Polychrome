@@ -1,0 +1,28 @@
+<div class="splash-page">
+    <h1>Classes</h1>
+</div>
+
+{% for class in site.classes %}
+    <section class="section">
+        <img src="/assets/images/{{ class.name | remove: '.md' }}.png" alt="{{ class.title }}" class="full-bleed" onerror="this.style.display='none'">
+        <div class="section-title">
+            <h2 id="{{ class.name | remove: '.md' }}">{{ class.title }}</h2>
+            <p>{{ class.tagline }}</p>
+        </div>
+        {{ class.content | markdownify }}
+    </section>
+
+        <!-- Find Subclasses for This Class -->
+        {% assign subclass_list = site.subclasses | where: "class", class.name %}
+
+        <!-- Render the Subclasses Section if Subclasses Exist -->
+        {% if subclass_list.size > 0 %}
+            {% for subclass in subclass_list %}
+            <section class="section">
+                <img src="/assets/images/{{ subclass.name | remove: '.md' }}.png" alt="{{ subclass.title }}" class="full-bleed" onerror="this.style.display='none'">
+                <h2><i>{{ class.subclass-name }}:</i> {{ subclass.title }}</h2>
+                <p>{{ subclass.content | markdownify }}</p>
+            </section>
+            {% endfor %}
+        {% endif %}
+{% endfor %}

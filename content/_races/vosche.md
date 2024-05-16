@@ -8,7 +8,7 @@ tagline: "Sleeping Seekers"
 flavor-text: After two days in the city, I wondered about the steady parade of blooming hairstyles and outrageous attire that would shock and dazzle the senses; I asked my guide when the festival was over. She turned to me and said, 'what festival?' <br> - Gifts, Bribes & Threats, an Ambassador's Recollection, <br><small>Soladine of Alamar (Trade Guild Ambassador)</small>
 ---
 
-## Basic Attributes
+### Basic Attributes
 
 Ability Score Increase
 : Your Charisma score increases by 2, Dexterity score by 1
@@ -28,7 +28,7 @@ Speed
 Languages
 : You can speak, read, and write Tradespeak and a dialect of Vosche language. All Vosche dialects are mutually comprehensible. Vosche literature is considered vast and profound. It's elaborate prose and fables have been adopted and adapted for generations by other cultures.
 
-## Abilities
+### Abilities
 
 Acute
 : The world may be a dream, but you are keenly aware of the signals the Sleeping God gives in this life. You are proficient in Perception.
@@ -39,16 +39,16 @@ Cantrip
 Vosche Weapon Training
 : You have proficiency with reach and thrown weapons
 
-## Description
-### Vosche Society
+### Description
+#### Vosche Society
 
 Structure and chaos. The Vosche have rigid cultural rules regarding a variety of political and social behavior. To an outsider, they may seem trivial or absurd, but thats because they are tailored to the needs of the Vosche and no one else. Regardless of where you stand in the Vosche hegemony, the ceremonies and rituals that have developed to maintain cultural identity and preserve the link to the Dream, are available to everyone willing. Almost everyone is compelled to go through these bench marks of Vosche tribal indoctrination, even those who were raised outside of the sphere of Vosche influence. Orphans raised by other races reach adolescence and develop a powerful wanderlust to return to the Vosche territories, even if they know nothing about where they are.
 
-### Wild Vosche and City Vosche
+#### Wild Vosche and City Vosche
 
 The people of dreams are wanderers. Compelled by an irresistible instinct to migrate, the Vosche who are called, travel en mass to a new location. The time frame for these migrations have never revealed a pattern to them, but it is very disruptive to progress and stability. Luckily, the Vosche have embraced this feature of their existence and adapted to be flexible to the calling. The sites they settle are unusual as they almost always are the locations of previously abandoned Vosche cities. While their cities grow quickly from there, there is an obsession with trying discover the history and secrets of the previous inhabitants, who always seem to have known more then them.
 
-### Leaders of visions
+#### Leaders of visions
 
 There once was a time when the Vosche were masters of their dreams to such a degree they could carry wonderful knowledge back into the waking world. The lords of the Vosche would rule from their slumber, sleeping for long stretches and sharing their visions with the others in dreams. The waking world of the Vosche was busy with the fulfilment of these visions. Art, buildings, magic and progress. The limits were endless but as the horizon of possibilities stretched, so did caution. Oraksus punished the Vosche, destroying their greatest city. Their patron, Sihn, sacrificed himself to save what remained and entered an eternal slumber. The Vosche lost their visions when returning to the waking world. The Vision Lords were all dead or corrupted, their powerful gift turned them monsters, their dreams infecting the Vosche with waking nightmares. An age of darkness descended and great evil was committed. Many moons passed without a single vision lord being born who was not of a stain heart. They moved from city to city only finding abandoned destruction from the previous residents. Some people stayed to resettle the ruined cities while others renounced their former dwellings to carve new beginnings. A few left to live in the wild, returning to the ancient teachings of dream walking in an attempt to reconnect with the Sleeping God.
 
