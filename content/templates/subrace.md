@@ -9,9 +9,9 @@ title:  "Full Display Name"
 tagline: "2-5 Words"
 flavor-text: "Flavor Text Here."
 ---
-## Description
+### Description
 
 Subraces in Polychrome are purely flavor, not mechanical. Provide one tothree sections that give a physical description, where they come from, and what makes it unique compared to other members of this race.
 
-### Section Title
+#### Section Title
 Section text.

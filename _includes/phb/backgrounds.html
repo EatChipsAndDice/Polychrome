@@ -1,0 +1,14 @@
+<div class="splash-page">
+    <h1>Backgrounds</h1>
+</div>
+
+{% for background in site.backgrounds %}
+    <section class="section">
+        <img src="/assets/images/{{ background.name | remove: '.md' }}.png" alt="{{ background.title }}" class="full-bleed" onerror="this.style.display='none'">
+        <div class="section-title">
+            <h2 id="{{ background.name | remove: '.md' }}">{{ background.title }}</h2>
+            <p>{{ background.tagline }}</p>
+        </div>
+        {{ background.content | markdownify }}
+    </section>
+{% endfor %}

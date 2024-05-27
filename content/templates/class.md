@@ -82,7 +82,7 @@ Ability Name
 {% for subclass in site.subclasses %}
 {% if subclass.class == page.name %}
 
-## *{{ subclass-name }}:* {{ subclass.title }}
+### *{{ subclass-name }}:* {{ subclass.title }}
 {{ subclass.content }}
 
 {% endif %}

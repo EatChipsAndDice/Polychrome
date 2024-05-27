@@ -13,7 +13,7 @@ Doeng Fung is a condition caused by a certain fungal infection. The disease is f
 
 ![Vosche Infected by Doeng Fung](/assets/images/doeng-fung-vosche.jpg)
 
-## Contracting a Doeng Fung Infection
+### Contracting a Doeng Fung Infection
 
 When you come in contact with Doeng Fung spores, most often by encountering the fungus in the wild or via contact with someone already infected, make a DC13 CON save.
 
@@ -21,21 +21,21 @@ If you fail, you contract a Doeng Fung infection. Roll on the **Doeng Fung Effec
 
 Whenever you Long Rest, make a DC13 CON save. If you fail, roll on the **Doeng Fung Effects** table.
 
-## Curing Doeng Fung Infections
+### Curing Doeng Fung Infections
 
-### Doeng Fung can be cured in a number of ways.
+#### Doeng Fung can be cured in a number of ways.
 
 - A Greater Restoration spell
 - Take an Urdstone based Anti-Doeng Potion.
 - Starve the infection, refusing food and water until you reach the 5th level of Exhaustion.
 
-### You can remove a single (random) effect of the infection in the following ways.
+#### You can remove a single (random) effect of the infection in the following ways.
 
 - A Lesser Restoration spell
 - Taking Acid Damage equal to at least half of your Max HP.
 - Refuse food and water, gaining a level of exhaustion.
 
-## Effects of the Doeng Fung
+### Effects of the Doeng Fung
 
 1. **Weakness.** -1 to Strength.
 2. **Tremors.** -1 to Dexterity.

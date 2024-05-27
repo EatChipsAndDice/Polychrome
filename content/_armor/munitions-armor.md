@@ -15,14 +15,14 @@ magic: false
 rarity: common
 ---
 
-## Heavy Armor
+### Heavy Armor
 
 | Name            |	AC  |  STR Req.	| Stealth<br>Disadvantage | Weight | Cost  |
 |-----------------|-----|:---------:|:------------------------:|:-------:|------:|
 | Munitions Armor	| 16	| 13        |	☑️                        |  55	    | 75 GP |
 | Full Plate	    | 18	| 15        |	☑️                        |  65	    | 1500 GP |
 
-## Misc. Armor
+### Misc. Armor
 
 | Name            |	AC  | Weight | Cost  |
 |-----------------|:---:|:------:|------:|

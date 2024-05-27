@@ -16,8 +16,40 @@ Each member approached in turn. For the ranger, Kael traced symbols over deep bi
 The ritual's final words resonated through the camp, imbuing a palpable energy. The once weary group now stood rejuvenated, their grateful eyes on Kael. Under the emerging stars, the bond between them deepened, a testament to shared battles and the healing power of faith."
 ---
 
+### Hit Dice
+Hit Die
+: D8 per Class Name Level
 
-# Level Advancement Table
+Hit Points at 1st Level
+: 8 + your Constitution modifier
+
+Hit Points at Higher Levels
+: D8 (or 5) + your Constitution modifier per ClassName level after 1st
+
+### Proficiencies
+
+Saving Throws
+: Wisdom, Charisma
+
+Skills
+: Choose two from History, Insight, Medicine, Persuasion, and Religion
+
+Armor
+: Light
+
+Weapons
+: Simple
+
+Tools
+: None
+
+### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a mace or *(b)* a simple weapon
+- *(a)* a priest's pack or *(b)* an explorer's pack
+- A holy symbol
+
+### Level Advancement Table
 
 |Level |Proficiency Bonus   |	Abilities     |
 |:-----:|:-----------------:|---------------|
@@ -42,8 +74,18 @@ The ritual's final words resonated through the camp, imbuing a palpable energy. 
 |19     |	+6                |	Ability Score Improvement          |
 |20     |	+6                |	Divine Apotheosis         |
 
+<div class='hard-break'></div>
 
-## Spell Slots per Level
+### Spellcasting
+From 1st level, your connection to the divine allows you to channel and cast spells.
+
+**Spell Slots and Spells Known**
+: The Priest's spellcasting table matches that of the [Cleric](/classes/cleric).
+
+Ritual Casting
+: Starting at 1st level, you can cast any priest ritual spell from their book of rites without having it prepared.
+
+#### Spell Slots per Level
 
 | Cantrips Known  | 1st |	2nd |	3rd |	4th |	5th |	6th |	7th |	8th |	9th |
 |:---------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -68,50 +110,8 @@ The ritual's final words resonated through the camp, imbuing a palpable energy. 
 | 5	              | 4	  | 3   |	3   |	3   |	3   |	2   |	1   |	1   |	1   |
 | 5	              | 4	  | 3   |	3   |	3   |	3   |	2   |	2   |	1   |	1   |
 
-# Hit Dice
-Hit Die
-: D8 per Class Name Level
-
-Hit Points at 1st Level
-: 8 + your Constitution modifier
-
-Hit Points at Higher Levels
-: D8 (or 5) + your Constitution modifier per ClassName level after 1st
-
-# Proficiencies
-
-Saving Throws
-: Wisdom, Charisma
-
-Skills
-: Choose two from History, Insight, Medicine, Persuasion, and Religion
-
-Armor
-: Light
-
-Weapons
-: Simple
-
-Tools
-: None
-
-# Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* a mace or *(b)* a simple weapon
-- *(a)* a priest's pack or *(b)* an explorer's pack
-- A holy symbol
-
-## Abilities
-
-Spellcasting
-: From 1st level, your connection to the divine allows you to channel and cast spells.
-
-: **Spell Slots and Spells Known**
-: The Priest's spellcasting table matches that of the [Cleric](/classes/cleric).
-
-Ritual Casting
-: Starting at 1st level, you can cast any priest ritual spell from their book of rites without having it prepared.
-
+<div class='hard-break'></div>
+### Abilities
 Cult Practice
 : At 1st level, you choose a Cult Practice that you adhere to. Your choice grants you features at 1st and then again at 3rd, 6th, 10th, 14th, and 17th levels.
 

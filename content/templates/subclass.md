@@ -12,14 +12,14 @@ flavor-text: "Flavor Text Here."
 
 A very basic description of the subclass.
 
-### {{page.title}} Level Progression Table
+#### {{page.title}} Level Progression Table
 |Level  |	Abilities | Scaling Ability |
 |:-----:|-----------|:---------------:|
 |X      |	          |                 |
 |Y      |	          |                 |
 |Z      |	          |                 |
 
-### Abilities
+#### Abilities
 
 Ability Title
 : Ability Description

@@ -1,60 +1,167 @@
 ---
 ---
 
-@import "base";
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 @page {
-  margin: 0;
-  margin-bottom: 2rem;
   size: Letter;
-  @bottom-center {
-      content: counter(page);
-  }
-}
+  margin: 1in;
+  @bottom-center { content: "page " counter(page) " of " counter(pages); }
+ }
 
-* {
+ body { 
+  font-size: 10pt;
+  line-height: 1.2;
+  font-family: "Lora", serif;
   margin: 0;
   padding: 0;
+  color: black;
+  background-color: white;
+  -webkit-print-color-adjust: exact;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
+h1 { string-set: chapterstring content() }
+h2 { string-set: subchapterstring content() }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+  margin: 1rem;
+  page-break-before: auto;
 }
 
-.full-page {
-  height: 11in;
-  break-after: always;
+h1 { font-size: 4rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+.hard-break { page-break-after: always; }
+
+ .section, ul, ol, dl, table, tr, p {
+  page-break-inside: avoid;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+ }
+
+ .allow-break {
+  page-break-inside: auto;
+ }
+
+ .full-bleed {
+  width: 8.6in;
+  height: auto;
+  margin: -1in -1.1in 0;
+ }
+
+ dl {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 0px;
+}
+dt { 
+  font-weight: bold; 
+  text-align: right;
+  padding-right: 1em;
 }
 
-.front-cover {
+dt, dd {
+  line-height: 1.25rem;
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+
+.cover, .splash-page {
   background: linear-gradient(315deg, #EFC237, #AD6CDC);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 4rem;
+  height: 11in;
+  margin: -1in;
+  h1 { 
+    font-size: 8rem; 
+    text-shadow: 10px 10px 0px #A5D;
+    margin-bottom: 3in;
+  }
 }
 
-.section, ul, ol, p, h1, h2, h3, h4, h5, h6 {
-  break-inside: avoid;
+.cover {
+  background-image: url('../../cover.png');
+  background-size: cover;
+  background-position: center;
+  
 }
 
-.header-image {
+.splash-page {
+  page-break-before: always; // Ensures this starts on a new page
+}
+
+.toc-container {
+  columns: 2;
+  column-gap: 1em;
+}
+
+ol.toc li {
+  border-bottom: 1pt solid #AAA;
+  margin-top: .25em;
+ }
+
+ ol.toc a{
+  text-decoration: none;
+  color: black;
+ }
+ .toctext::before{
+  content: target-text(attr(href));
+ }
+ .tocpagenr {
+  float:right;
+ }
+ .tocpagenr::after {
+  content: target-counter(attr(href), page);
+ }
+ 
+ .section-title {
+  display: flex;
+  align-items: end;
+  h2 { font-size: 3rem; }
+  p { 
+    font-size: 1.5rem; 
+    font-weight: 900;
+  }
+ }
+
+ table {
   width: 100%;
-  height: auto;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  page-break-after: auto;
+  th, td {
+    border-bottom: 1px solid black;
+    padding: 0.1rem;
+  }
+ }
+
+ .columns {
+  columns: 2;
+  column-gap: 1em;
+ }
+
+ .text-center { text-align: center; }
+
+ ol, ul {
   margin: 0;
-}
-
-.print-content {
-  margin: 2em;
-}
-
-.flavor-text {
-  background-color: #DDD;
-  padding: 1rem;
-  margin: 1rem;
-  font-style: italic;
-  margin-bottom: 1em;
-}
+  padding: 0;
+  list-style-position: inside;
+  li {
+    margin-bottom: 0.2rem;
+  }
+ }  

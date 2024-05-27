@@ -30,12 +30,12 @@ experience-points: 200xp
 One paragraph describing the monster and its place on Oda.
 
 
-## Actions
+### Actions
 
 Name
 : Action
 
-## Special Abilities
+### Special Abilities
 
 Name
 : Ability

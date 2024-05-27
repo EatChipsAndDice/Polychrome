@@ -12,7 +12,7 @@ flavor-text:
 
 Priests of Boemon's Cult are expected to maintain and protect places of natural growth, especially those of the Golden Sequoia. They conduct rituals during the planting and harvest seasons, and they mediate disputes, maintaining the order as Boemon desires. Reading from the "Alchemy of Soil" is a daily duty, and many take pilgrimages to the Iron Dome, the head temple, to gain deeper insights into their god's will.
 
-###  Level Progression Table
+####  Level Progression Table
 
 |Level  |	Abilities                     |
 |:-----:|:------------------------------|
@@ -25,7 +25,7 @@ Priests of Boemon's Cult are expected to maintain and protect places of natural 
 |20     |Apotheosis: Earth's Ultimate Guardian  |
 
 
-### Abilities
+#### Abilities
 
 Boemon's Call
 : At 1st level, Priests who select this Cult Practice can feel the heartbeat of the land. As an action, they can touch the ground to gain tremorsense within a 30-foot radius for 1 minute, allowing them to detect and pinpoint the origin of vibrations within this range, effectively "seeing" without relying on sight. Once used, this ability can't be invoked again until after a short or long rest.

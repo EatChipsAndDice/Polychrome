@@ -42,7 +42,7 @@ Domesticated Tundrum Wasps are used as mounts by mountain warlords, underworld f
 
 In combat, Tundrum Wasps use their sharp mandibles to attack enemies and defend themselves. They can also use their powerful legs to strike or knock down foes, and their loud humming noise can be used to intimidate opponents. Though they are not able to fly, their mobility and toughness make them formidable opponents.
 
-## Actions
+### Actions
 
 Bite
 : Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
@@ -50,7 +50,7 @@ Bite
 Slam
 : Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.
 
-## Special Abilities
+### Special Abilities
 
 Humming Intimidation
 : As an action, the Tundrum Wasp can emit a loud, intimidating humming noise. Each creature within 10 feet of the wasp must make a Wisdom saving throw (DC 12) or become frightened until the end of the Tundrum Wasp's next turn.

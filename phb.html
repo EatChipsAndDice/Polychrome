@@ -2,15 +2,54 @@
 layout: phb
 title: Polychrome
 ---
-<div class="full-page front-cover">
+
+<section class="cover">
     <h1>Polychrome</h1>
+</section>
+
+{% assign my_order = "races,classes,backgrounds,feats" | split: "," %}
+
+<section class="section">
+    <h1>Table of Contents</h1>
+    <div class="toc-container">
+        {% for collection_name in my_order %}
+            {% assign collection = site.collections | where: "label", collection_name | first %}
+            <h2>{{ collection.label | capitalize }}</h2>
+            <ol class="toc">
+                {% for document in collection.docs %}
+                    <li>
+                        <a href="#{{ document.name | remove: '.md' }}" class="toctext"></a>
+                        <a href="#{{ document.name | remove: '.md' }}" class="tocpagenr"></a>
+                    </li>
+                {% endfor %}
+            </ol>
+        {% endfor %}
+        <h2>Equipment</h2>
+        <ol class="toc">
+                <li>
+                    <a href="#weapons" class="toctext"></a>
+                    <a href="#weapons" class="tocpagenr"></a>
+                </li>
+                <li>
+                    <a href="#armor" class="toctext"></a>
+                    <a href="#armor" class="tocpagenr"></a>
+                </li>
+                <li>
+                    <a href="#items" class="toctext"></a>
+                    <a href="#items" class="tocpagenr"></a>
+                </li>
+        </ol>
+
+    </div>
+</section>
+
+{% include phb/races.html %}
+{% include phb/classes.html %}
+{% include phb/backgrounds.html %}
+{% include phb/feats.html %}
+<div class="splash-page">
+    <h1>Equipment</h1>
 </div>
-
-
-<!-- Races Section -->
-{% capture races_content %}
-{% include_relative phb/races.html %}
-{% endcapture %}
-{{ races_content | remove_front_matter }}
-
-
+{% include phb/weapons.html %}
+{% include phb/armor.html %}
+{% include phb/items.html %}

@@ -12,7 +12,7 @@ flavor-text:
 
 You are trained in the philosophy of idealism, which holds that reality is fundamentally mental or spiritual in nature.
 
-### Idealist Level Progression Table
+#### Idealist Level Progression Table
 
 |Level  |	Abilities       |
 |:-----:|-----------------|
@@ -20,7 +20,7 @@ You are trained in the philosophy of idealism, which holds that reality is funda
 |6      |	Deep Nature     |
 |14     |	Psychonaut      |
 
-### Abilities
+#### Abilities
 Basic Education
 : You gain proficiency in the Arcana skill and can use it to detect uncover the hidden natures of the universe.
 
