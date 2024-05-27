@@ -14,13 +14,13 @@ languages: [languages]
 
 Background description
 
-## Equipment
+### Equipment
 - Starting
 - Items
 - Here
 
-## Feature: Name
+### Feature: Name
 Feature description
 
-## Suggested Characteristics
+### Suggested Characteristics
 Things about background

@@ -12,7 +12,7 @@ flavor-text: "Flavor Text Here."
 
 The Condottiero is a fighter subclass that excels in inspiring their allies, as well as using their fearsome reputation and presence to intimidate their enemies. They are known for their skill in military strategy and their ability to command forces in battle. Many condottieri are also skilled diplomats, and they are often used as intermediaries in negotiations between rival factions or states.
 
-### Condottiero Level Progression Table
+#### Condottiero Level Progression Table
 
 |Level  |	Abilities            |
 |:-----:|----------------------|
@@ -22,7 +22,7 @@ The Condottiero is a fighter subclass that excels in inspiring their allies, as 
 |15     |	Inspiring Speech     |
 |18     |	Fearsome Presence    |
 
-### Abilities
+#### Abilities
 
 Inspiration
 : At 3rd level, the Condottiero can use their charisma to inspire their teammates, giving them an Inspiration die (a d6) to use during an encounter. The number of Inspiration Dice the Condottiero can give out is equal to their Charisma modifier. This ability can be used as an action and is regained after a short rest.

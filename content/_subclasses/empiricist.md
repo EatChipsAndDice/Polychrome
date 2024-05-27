@@ -12,7 +12,7 @@ flavor-text:
 
 You are trained in the philosophy of empiricism, which holds that knowledge comes from sensory experience.
 
-### Empiricist Level Progression Table
+#### Empiricist Level Progression Table
 
 |Level  |	Abilities             |
 |:-----:|-----------------------|
@@ -20,7 +20,7 @@ You are trained in the philosophy of empiricism, which holds that knowledge come
 |6      |	Catalogue of Weakness |
 |14     |	the Way of the World  |
 
-### Abilities
+#### Abilities
 Basic Education
 : You gain proficiency in the Survival skill and can use it to gather and analyze data from the natural world.
 

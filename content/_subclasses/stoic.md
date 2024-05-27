@@ -12,7 +12,7 @@ flavor-text:
 
 You are trained in the philosophy of Stoicism, which holds that virtue and wisdom are the highest goals and that emotions should be controlled and mastered.
 
-### Stoic Level Progression Table
+#### Stoic Level Progression Table
 
 |Level  |	Abilities             |
 |:-----:|-----------------------|
@@ -20,7 +20,7 @@ You are trained in the philosophy of Stoicism, which holds that virtue and wisdo
 |6      |	Memento Mori          |
 |14     |	Iron Will             |
 
-### Abilities
+#### Abilities
 Basic Education
 : You gain proficiency in the Athletics skill and can use it to withstand physical and mental challenges.
 

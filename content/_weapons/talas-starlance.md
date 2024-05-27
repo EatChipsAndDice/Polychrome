@@ -17,7 +17,7 @@ rarity: legendary
 
 Crafted from the otherworldly Urdstone, this spear once graced the hands of an Avatar of Talas during the Godswar. Legends speak of its incredible power, thrown across the vast Rift to vanquish one of Oraxis' formidable warlords. It shimmers with a unique, celestial radiance, and the spearhead seems to contain a living pulse of radioactive energy. Requires attunement.
 
-## Abilities
+### Abilities
 
 **Foretold Throw**: Before releasing a ranged attack with Talas' Starlance, the wielder can tap into the future for a fleeting moment. As a bonus action, after announcing the use of this feature but before making the attack roll, roll a d20. If the result would miss the intended target, the spear isn’t thrown, however, an action is still consumed.
 

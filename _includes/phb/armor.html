@@ -1,0 +1,91 @@
+<section class="section">
+    <img src="/assets/images/armor.png" alt="armor" class="full-bleed" onerror="this.style.display='none'">
+    <div class="section-title">
+        <h2 id="armor">Armor</h2>
+    </div>
+    
+    <table>
+        <thead>
+        <th>Name</th>
+        <th>Proficiency</th>
+        <th>AC</th>
+        <th>DEX Bonus?</th>
+        <th>Stealth Disadvantage</th>
+        <th>Cost</th>
+        <th>Weight</th>
+        </thead>
+        <tbody>
+        {% for armor in site.armor %}
+        {% if armor.magic != true %}
+            <tr>
+            <td><b>{{ armor.title }}</b></td>
+            <td>{{ armor.proficiency }}</td>
+            <td>{{ armor.ac }}</td>
+            <td>{{ armor.dex-bonus }}</td>
+            <td>{{ armor.stealth }}</td>
+            <td>{{ armor.cost }}</td>
+            <td>{{ armor.weight }}</td>
+            </tr>
+        {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h3>Magic armor</h3>
+
+    <table>
+        <thead>
+        <th>Name</th>
+        <th>Proficiency</th>
+        <th>AC</th>
+        <th>DEX Bonus?</th>
+        <th>Stealth Disadvantage</th>
+        <th>Cost</th>
+        <th>Weight</th>
+        </thead>
+        <tbody>
+        {% for armor in site.armor %}
+        {% if armor.magic == true %}
+            <tr>
+            <td><a href="{{ armor.url }}">{{ armor.title }}</a></td>
+            <td>{{ armor.proficiency }}</td>
+            <td>{{ armor.ac }}</td>
+            <td>{{ armor.dex-bonus }}</td>
+            <td>{{ armor.stealth }}</td>
+            <td>{{ armor.cost }}</td>
+            <td>{{ armor.weight }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+    </tbody>
+</table>
+<div class="columns"> 
+    {% for armor in site.armors %}
+    {% if armor.magic == true %}
+    <div class="container">
+        <div class="title-section">
+            <h3 class="page-title">{{ armor.title }}</h3>
+            <small class="tagline">{{ armor.tagline }}</small>
+        </div>
+        <ul class="unstyled">
+                    <li><b>AC</b>{{ armor.ac }}</li>
+                    <li><b>Dex Bonus</b>{{ armor.dex-bonus }}</li>
+                    <li><b>Stealth</b>{{ armor.stealth }}</li>
+                    <li><b>Proficiency:</b> {{ armor.proficiency }}</li>
+                    <li><b>Cost:</b> {{ armor.cost }}</li>
+                    <li><b>Weight:</b> {{ armor.weight }}</li>
+                </ul>
+            
+                <div class="page-content" markdown=1>
+                {{ armor.content }}
+                {% if armor.flavor-text %}
+                <blockquote class="flavor-text" markdown=1>{{ armor.flavor-text | markdownify }}</blockquote>
+                {% endif %}
+                </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+</section>
+
+
+

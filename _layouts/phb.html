@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include printhead.html %}
+  <body>
+
+    <div class="page-content">
+      {{ content }}
+      {% if page.flavor-text %}
+        <blockquote class="flavor-text" markdown=1>{{ page.flavor-text | markdownify }}</blockquote>
+      {% endif %}
+    </div>
+  </body>
+</html>

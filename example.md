@@ -3,12 +3,12 @@
 
 # Role-Playing Game: Character Classes
 
-## Overview
+### Overview
 In this role-playing game, players can choose from a variety of character classes. Each class has unique abilities, strengths, and weaknesses that contribute to the team's overall strategy. Understanding the nuances of each class can help players make more informed decisions and enhance their gameplay experience.
 
-## Character Classes
+### Character Classes
 
-### 1. Warrior
+#### 1. Warrior
 - **Description**: Warriors are strong melee fighters, known for their physical strength and combat skills.
 - **Abilities**:
   - **Swordsmanship**: Expertise in using swords and other melee weapons.
@@ -17,7 +17,7 @@ In this role-playing game, players can choose from a variety of character classe
 - **Strengths**: High physical damage and durability.
 - **Weaknesses**: Limited ranged combat abilities and magic use.
 
-### 2. Mage
+#### 2. Mage
 - **Description**: Mages are spellcasters who use magic to attack, defend, and manipulate the battlefield.
 - **Abilities**:
   - **Elemental Magic**: Cast spells based on elements like fire, ice, and lightning.
@@ -26,7 +26,7 @@ In this role-playing game, players can choose from a variety of character classe
 - **Strengths**: Powerful ranged attacks and versatile spellcasting.
 - **Weaknesses**: Physically weak and reliant on mana.
 
-### 3. Rogue
+#### 3. Rogue
 - **Description**: Rogues are agile and cunning, specializing in stealth, speed, and precision strikes.
 - **Abilities**:
   - **Stealth**: Ability to move unseen and unheard.
@@ -35,7 +35,7 @@ In this role-playing game, players can choose from a variety of character classe
 - **Strengths**: High agility and ability to deal critical hits.
 - **Weaknesses**: Low defense and health.
 
-### 4. Cleric
+#### 4. Cleric
 - **Description**: Clerics are holy warriors who balance between fighting skills and divine magic.
 - **Abilities**:
   - **Healing Magic**: Cast spells to heal allies.
@@ -44,7 +44,7 @@ In this role-playing game, players can choose from a variety of character classe
 - **Strengths**: Supportive abilities and decent combat skills.
 - **Weaknesses**: Less damage output compared to pure damage classes.
 
-### 5. Ranger
+#### 5. Ranger
 - **Description**: Rangers are skilled in wilderness survival and are adept at ranged combat and animal companionship.
 - **Abilities**:
   - **Archery**: Expertise in using bows and arrows.
@@ -53,5 +53,5 @@ In this role-playing game, players can choose from a variety of character classe
 - **Strengths**: Excellent at ranged combat and versatile in different environments.
 - **Weaknesses**: Less effective in close-quarter combat.
 
-## Conclusion
+### Conclusion
 Each character class offers a unique playstyle and strategic advantage. Players should consider their preferred playstyle and role within the team when choosing their class. Remember, the key to success in this role-playing game is teamwork and understanding the strengths and weaknesses of each class.

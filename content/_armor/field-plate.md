@@ -15,7 +15,7 @@ magic: false
 rarity: common
 ---
 
-## Misc. Armor
+### Misc. Armor
 
 | Name            |	AC  | Weight | Cost  |
 |-----------------|:---:|:------:|------:|

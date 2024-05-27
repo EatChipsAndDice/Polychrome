@@ -1,0 +1,34 @@
+<div class="splash-page">
+    <h1>Races</h1>
+</div>
+
+{% for race in site.races %}
+    <section class="section">
+        <img src="/assets/images/{{ race.name | remove: '.md' }}.png" alt="{{ race.title }}" class="full-bleed" onerror="this.style.display='none'">
+        <div class="section-title">
+            <h2 id="{{ race.name | remove: '.md' }}">{{ race.title }}</h2>
+            <p>{{ race.tagline }}</p>
+        </div>
+        {{ race.content | markdownify }}
+
+        <!-- Find Subraces for This Race -->
+        {% assign subrace_list = site.subraces | where: "race", race.name %}
+
+        <!-- Render the Subraces Section if Subraces Exist -->
+        {% if subrace_list.size > 0 %}
+
+            <section class="subraces" class="section">
+                    {% for subrace in subrace_list %}
+                    <section class="section">
+                    <img src="/assets/images/{{ subrace.name | remove: '.md' }}.png" alt="{{ subrace.title }}" class="full-bleed" onerror="this.style.display='none'">
+                        <h3>
+                            <i>{{ race.title }} Subrace:</i> {{ subrace.title }}
+                        </h3>
+                        <p>{{ subrace.content | markdownify }}</p>
+                    </section>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+    </section>
+{% endfor %}

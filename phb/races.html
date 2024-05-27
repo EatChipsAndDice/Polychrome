@@ -2,9 +2,18 @@
 layout: default
 title: Races
 ---
-<h1>Races</h1>
+<div class="front-cover full-page">
+  <h1>Races</h1>
+</div>
 {% for race in site.races %}
-  <h1>{{ race.title }}</h1>
-  <div>{{ race.content | markdownify }}</div>
-  <hr>
+<section class="section">
+  <img style='header-image' src="/assets/images/{{ race.name | remove: '.md' }}.png" onerror="this.style.display='none'">
+  <div class="print-content">
+    <h2 id="{{ race.name| remove: '.md' }}">{{ race.title }}</h2>
+    {{ race.content | markdownify }}
+    <div class='flavor-text'>
+      {{ race.flavor-text | markdownify }}
+    </div>
+  </div>
+</section>
 {% endfor %}

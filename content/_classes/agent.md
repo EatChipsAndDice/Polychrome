@@ -5,13 +5,52 @@ content_type: class
 author: ali-bobby
 name: agent
 title:  "Agent"
-tagline: "2-5 Words"
+tagline: "Lurks in Shadow"
 flavor-text:
 subclass-name: "Faction" # i.e. Divine Domain
 ---
-Agents represent those adventurers whose expertise was gained through extensive training and education, usually on behalf of a political, cultural or economic faction. On Oda there many factions secretly competing for money, power and influence. Kingdoms, fraternal lodges, commercial cartels and criminal syndicates all train agents with skills intended to further their purposes. Occasionally, agents go rogue and work according to their own will.
+Agents represent those adventurers whose expertise was gained through extensive training and education, usually on behalf of a political, cultural or economic faction. On Oda there many factions secretly competing for money, power and influence. Kingdoms, fraternal lodges, commercial cartels and criminal syndicates all train agents with skills intended to further their purposes. 
 
-# Agent Level Advancement Table
+Occasionally, these agents go rogue and work according to their own will.
+
+## Hit Dice
+
+Hit Die
+: D8 per Agent Level
+
+Hit Points at 1st Level
+: 8 + your Constitution modifier
+
+Hit Points at Higher Levels
+: D8 (or 5) + your Constitution modifier per barbarian level after 1st
+
+## Proficiencies
+
+Saving Throws
+: Intelligence and Dexterity.
+
+Skills
+: Choose any 3.
+
+Armor
+: Light.
+
+Weapons
+: Simple, Smallsword, and Wheellock Pistol.
+
+Tools
+: Choose one from Disguise Kit and Thieves' Tools.
+
+## Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- Buff Coat
+- Dagger
+- Rapier or Wheellock Pistol
+- Diplomat's Pack or Entertainer's Pack
+- Thieves' Tools or Disguise Kit
+
+
+## Agent Level Advancement Table
 
 | Level | Proficiency Bonus | Abilities                             |
 |:-----:|:-----------------:|---------------------------------------|
@@ -36,46 +75,10 @@ Agents represent those adventurers whose expertise was gained through extensive 
 |19     |	+6                | Ability Score Improvement             |
 |20     |	+6                | Faction Feature                       |
 
-# Hit Dice
-
-Hit Die
-: D8 per Agent Level
-
-Hit Points at 1st Level
-: 8 + your Constitution modifier
-
-Hit Points at Higher Levels
-: D8 (or 5) + your Constitution modifier per barbarian level after 1st
-
-# Proficiencies
-
-Saving Throws
-: Intelligence and Dexterity.
-
-Skills
-: Choose any 3.
-
-Armor
-: Light.
-
-Weapons
-: Simple, Smallsword, and Wheellock Pistol.
-
-Tools
-: Choose one from Disguise Kit and Thieves' Tools.
-
-# Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-- Buff Coat
-- Dagger
-- Rapier or Wheellock Pistol
-- Diplomat's Pack or Entertainer's Pack
-- Thieves' Tools or Disguise Kit
-
-# Spellcasting
+## Spellcasting
 Agents are trained to untangle and reshape the fabric of reality through skills and discipline. Your Spells are part of your vast repertoire, magic that you can tune to different situations. Agents cast spells from the Bard spell list. See chapter 10 for the general rules of spellcasting and chapter 11 for the bard spell list.
 
-## Spell Slots by Level
+### Spell Slots by Level
 
 | Level | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
 |:-----:|:--------------:|:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -100,6 +103,9 @@ Agents are trained to untangle and reshape the fabric of reality through skills 
 | 19th  |       4        |      22      |  4  |  3  |  3  |  3  |  3  |  2  |  1  |  1  |  1  |
 | 20th  |       4        |      22      |  4  |  3  |  3  |  3  |  3  |  2  |  2  |  1  |  1  |
 
+<div class='print-only' markdown=1>
+#### Spellcasting, continued
+</div>
 Cantrips
 : You know two Cantrips of your choice from the bard spell list. You learn additional bard Cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.
 
@@ -108,9 +114,9 @@ Spell Slots
 For example, if you know the 1st-level spell Cure Wounds and have a 1st-level and a 2nd-level spell slot available, you can cast Cure Wounds using either slot.
 
 Spells Known of 1st Level and Higher
-: You know four 1st-level Spells of your choice from the bard spell list.
-: You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these Spells must be of a level for which you have Spell Slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
-: Additionally, when you gain a level in this class, you can choose one of the bard Spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have Spell Slots.
+: You know four 1st-level Spells of your choice from the bard spell list.\
+You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these Spells must be of a level for which you have Spell Slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.\
+Additionally, when you gain a level in this class, you can choose one of the bard Spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have Spell Slots.
 
 Spellcasting Ability
 : Intelligence is your spellcasting ability for your bard Spells. Your magic comes from the focused discipline and technical refinement of your training. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when Setting the saving throw DC for a bard spell you cast and when Making an Attack roll with one.
@@ -127,11 +133,11 @@ Ritual Casting
 Spellcasting Focus
 : You can use your membership emblem (see “Equipment”) as a spellcasting focus for your bard Spells.
 
-# Abilities
+<div class='hard-break'></div>
+## Abilities
 
 Faction
 : At level one, an agent joins a faction. You are awarded an emblem, signifying your membership to the organization, and your rank within it. This emblem is your spell casting focus.
-
 
 Field Dressing
 : Beginning at 2nd level, you can use your medical training to help revitalize your wounded allies during a Short Rest. If you or any friendly creatures within 30 feet regain hit points by spending Hit Dice at the end of the Short Rest, each of those creatures regains an extra 1d6 hit points.
