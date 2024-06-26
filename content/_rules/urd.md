@@ -11,7 +11,7 @@ tagline: the Arcane Amplifier of the Stars
 
 ### Urd
 
-Urd is a rare and enigmatic radioactive metal that originates from space, primarily arriving on the material plane in the form of meteorites. This extraterrestrial substance possesses unique properties that make it highly sought after by arcane practitioners and craftsmen alike.
+Urd is a rare and mysterious radioactive metal that originates from space, primarily arriving on the material plane in the form of meteorites. This extraterrestrial substance possesses unique properties that make it highly sought after by arcane practitioners and craftsmen alike.
 
 #### Physical Characteristics
 
