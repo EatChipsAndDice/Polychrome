@@ -95,7 +95,7 @@ When you come into close contact with Urd, it can have strange, even dangerous, 
 | 48          | Smell of roses lingers around the player for 1d4 long rests. You attract biting bugs and bees, causing disadvantage on Wisdom (Perception) checks. |
 | 49          | Voice changes pitch unpredictably for 1d6 long rests. You must focus to maintain a consistent tone, causing disadvantage on Charisma (Persuasion) checks. |
 | 50          | Player becomes invisible for 1d4 minutes once at random. You must announce your presence frequently to avoid surprises, causing disadvantage on Dexterity (Stealth) checks. |
-| 51          | Ears become pointed like an elf for 1d4 long rests. You have advantage on Wisdom (Perception) checks involving hearing but disadvantage on Charisma (Deception) checks. |
+| 51          | Ears become droopy like a hound for 1d4 long rests. You have advantage on Wisdom (Perception) checks involving hearing but disadvantage on Charisma (Deception) checks. |
 | 52          | Can see in complete darkness for 1d6 long rests. You have disadvantage on Wisdom (Perception) checks in bright light. |
 | 53          | Can breathe fire once for 1d6 long rests. You must consume spicy food daily to maintain this ability, causing disadvantage on Constitution checks if not done. |
 | 54          | Skin turns bright red for 1d6 long rests. You have disadvantage on Charisma (Persuasion) checks. |
