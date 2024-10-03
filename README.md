@@ -8,4 +8,4 @@ Within this repository you will find information and history concering the Terri
 
 All recorded information on life, non-life, creatures and cultures residing within Oda and it's immediate surroundings can be found and updated here.
 
-[Website for public viewing](https://polychrome-rpg.netlify.app/)
+[Website for public viewing](https://polychromerpg.com)
